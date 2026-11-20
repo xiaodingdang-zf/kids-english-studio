@@ -1,0 +1,12 @@
+{
+  "name": "kes-local",
+  "description": "Kids English Studio 本地插件集市，包含原创幼儿英语定格动画短片制作工具。",
+  "owner": {"name": "Kids English Studio"},
+  "plugins": [
+    {
+      "name": "kids-english-studio",
+      "source": "./",
+      "description": "一句话制作原创幼儿英语定格动画短片。"
+    }
+  ]
+}

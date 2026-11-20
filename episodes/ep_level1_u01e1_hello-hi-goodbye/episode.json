@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_level1_u01e1_hello-hi-goodbye",
+  "prompt": "做 Level 1 第 1 单元第 1 集",
+  "theme": "curriculum",
+  "theme_zh": "问候与姓名",
+  "theme_en": "Greetings & Names",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "hello",
+      "zh": "你好"
+    },
+    {
+      "en": "hi",
+      "zh": "你好"
+    },
+    {
+      "en": "goodbye",
+      "zh": "再见"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学问候与姓名！",
+      "pause_after_ms": 200,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn Greetings & Names!",
+      "pause_after_ms": 550,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "en",
+      "text": "Hello!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "你好，hello。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "Hello.",
+      "pause_after_ms": 1700,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "Hello! Good job!",
+      "pause_after_ms": 650,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Hi!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "你好，hi。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Hi.",
+      "pause_after_ms": 1700,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "en",
+      "text": "Hi! Good job!",
+      "pause_after_ms": 650,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Goodbye!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "zh",
+      "text": "再见，goodbye。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "en",
+      "text": "Goodbye.",
+      "pause_after_ms": 1700,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Goodbye! Good job!",
+      "pause_after_ms": 650,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "en",
+      "text": "Hello!",
+      "pause_after_ms": 1250,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "Hi!",
+      "pause_after_ms": 1250,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "en",
+      "text": "Goodbye!",
+      "pause_after_ms": 1250,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c026",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c027",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 750,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

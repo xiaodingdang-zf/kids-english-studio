@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "asset_source": "kes:procedural",
+      "type": "image",
+      "license": "原创（KES 代码绘制）",
+      "commercial_ok": true,
+      "proof": "kes/visual/clay.py",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "占位黏土画面，由项目代码生成"
+    },
+    {
+      "asset_source": "kes:synth",
+      "type": "music",
+      "license": "原创（KES 代码合成）",
+      "commercial_ok": true,
+      "proof": "kes/audio/synth.py",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "程序化配乐与音效"
+    },
+    {
+      "asset_source": "kes:foley",
+      "type": "sfx",
+      "license": "原创（KES 代码合成）",
+      "commercial_ok": true,
+      "proof": "kes/audio/foley.py",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "卡片弹出、跳起落地、拍手、物体出现等拟音均由代码合成；未使用外部音效素材"
+    },
+    {
+      "asset_source": "vsco2-ce:harp",
+      "type": "music",
+      "license": "CC0-1.0 (VSCO 2 Community Edition sampled recordings); KES original arrangement",
+      "commercial_ok": true,
+      "proof": "https://github.com/sgossner/VSCO-2-CE/blob/master/LICENSE",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "Versilian Studios 官方竖琴录音；下载地址 https://github.com/sgossner/VSCO-2-CE ，脚本 scripts/fetch_samples.sh；和弦、旋律、低音为 KES 原创编排。仅当 4 个采样齐备可解码时使用该来源。"
+    },
+    {
+      "asset_source": "mock:macos_say",
+      "type": "voice",
+      "license": "Apple macOS 系统语音",
+      "commercial_ok": false,
+      "proof": null,
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "仅开发预览；发布前必须换成 live 配音"
+    },
+    {
+      "asset_source": "volc:seed-tts-2.0",
+      "type": "voice",
+      "license": "火山引擎语音合成付费服务",
+      "commercial_ok": true,
+      "proof": "待补：火山引擎控制台订单/服务协议截图路径",
+      "expires": null,
+      "verified_on": null,
+      "notes": "多多哥确认商用条款并补充凭证后保持 true；如未确认请改为 false"
+    },
+    {
+      "asset_source": "font:ofl:source-han-sans-sc",
+      "type": "font",
+      "license": "SIL Open Font License 1.1 (OFL)",
+      "commercial_ok": true,
+      "proof": "assets/fonts/LICENSES/OFL-SourceHanSansSC.txt",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "思源黑体 Source Han Sans SC，可用于商业用途。存放于 assets/fonts/zh.otf"
+    },
+    {
+      "asset_source": "font:ofl:nunito",
+      "type": "font",
+      "license": "SIL Open Font License 1.1 (OFL)",
+      "commercial_ok": true,
+      "proof": "assets/fonts/LICENSES/OFL-Nunito.txt",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "英文圆体，可用于商业用途。存放于 assets/fonts/en.ttf"
+    },
+    {
+      "asset_source": "openai:image_gen",
+      "type": "image",
+      "license": "OpenAI 服务条款：用户拥有生成内容（Output）的权利",
+      "commercial_ok": true,
+      "proof": "https://openai.com/policies/terms-of-use （由 Codex 内置生图生成，记录见 assets/GENERATION_LOG.md）",
+      "expires": null,
+      "verified_on": "2026-11-19",
+      "notes": "发布到抖音/视频号需按平台规定标注 AI 生成内容；条款以发布时 OpenAI 现行版本为准"
+    },
+    {
+      "asset_source": "vsco2-ce:pizzicato",
+      "type": "music",
+      "license": "CC0-1.0",
+      "commercial_ok": true,
+      "proof": "https://github.com/sgossner/VSCO-2-CE/blob/master/LICENSE (~/kes-env/samples/VSCO-2-CE-LICENSE)",
+      "expires": null,
+      "verified_on": "2026-11-20",
+      "notes": "VSCO 2 CE 独奏小提琴拨弦采样 (CC0-1.0)"
+    },
+    {
+      "asset_source": "vsco2-ce:glock",
+      "type": "music",
+      "license": "CC0-1.0",
+      "commercial_ok": true,
+      "proof": "https://github.com/sgossner/VSCO-2-CE/blob/master/LICENSE (~/kes-env/samples/VSCO-2-CE-LICENSE)",
+      "expires": null,
+      "verified_on": "2026-11-20",
+      "notes": "VSCO 2 CE 钟琴采样 (CC0-1.0)"
+    },
+    {
+      "asset_source": "vsco2-ce:marimba",
+      "type": "music",
+      "license": "CC0-1.0",
+      "commercial_ok": true,
+      "proof": "https://github.com/sgossner/VSCO-2-CE/blob/master/LICENSE (~/kes-env/samples/VSCO-2-CE-LICENSE)",
+      "expires": null,
+      "verified_on": "2026-11-20",
+      "notes": "VSCO 2 CE 马林巴采样 (CC0-1.0)"
+    },
+    {
+      "asset_source": "vsco2-ce:flute",
+      "type": "music",
+      "license": "CC0-1.0",
+      "commercial_ok": true,
+      "proof": "https://github.com/sgossner/VSCO-2-CE/blob/master/LICENSE (~/kes-env/samples/VSCO-2-CE-LICENSE)",
+      "expires": null,
+      "verified_on": "2026-11-20",
+      "notes": "VSCO 2 CE 长笛采样 (CC0-1.0)"
+    }
+  ]
+}

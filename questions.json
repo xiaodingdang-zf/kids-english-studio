@@ -1,0 +1,87 @@
+{
+  "parsed": {
+    "theme": "animals",
+    "theme_zh": "动物",
+    "character": "ollie",
+    "character_zh": "奥利",
+    "duration_sec": 60,
+    "n_words": 5,
+    "aspect": "portrait",
+    "style": "clay",
+    "has_story": false
+  },
+  "questions": [
+    {
+      "id": "style",
+      "question": "选择风格",
+      "options": [
+        "clay（黏土）",
+        "felt（羊毛毡）"
+      ],
+      "default": "clay（黏土）",
+      "user_value": null
+    },
+    {
+      "id": "duration",
+      "question": "选择时长",
+      "options": [
+        "30 秒",
+        "60 秒（推荐）",
+        "90 秒",
+        "120 秒"
+      ],
+      "default": "60 秒（推荐）",
+      "user_value": null
+    },
+    {
+      "id": "aspect",
+      "question": "选择画幅",
+      "options": [
+        "竖屏（portrait）",
+        "横屏（landscape）",
+        "方形（square）"
+      ],
+      "default": "竖屏（portrait）",
+      "user_value": null
+    },
+    {
+      "id": "narration",
+      "question": "选择旁白语言",
+      "options": [
+        "中英双语",
+        "纯英文"
+      ],
+      "default": "中英双语",
+      "user_value": null
+    },
+    {
+      "id": "en_voice",
+      "question": "选择英文音色",
+      "options": [
+        "A（小何）",
+        "B（母语使用者）"
+      ],
+      "default": "A（小何）",
+      "user_value": null
+    },
+    {
+      "id": "opening_closing",
+      "question": "片头片尾",
+      "options": [
+        "有（包含）",
+        "无（简化）"
+      ],
+      "default": "有（包含）",
+      "user_value": null
+    }
+  ],
+  "defaults": {
+    "style": "clay",
+    "duration": 60,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true
+  },
+  "hint": "回复 'all' 或 '全部默认' 采用所有默认值，或逐个回答问题"
+}

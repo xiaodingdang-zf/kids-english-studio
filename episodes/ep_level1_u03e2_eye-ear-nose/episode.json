@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_level1_u03e2_eye-ear-nose",
+  "prompt": "做 Level 1 第 3 单元第 2 集",
+  "theme": "curriculum",
+  "theme_zh": "身体部位",
+  "theme_en": "Body",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "eye",
+      "zh": "眼睛"
+    },
+    {
+      "en": "ear",
+      "zh": "耳朵"
+    },
+    {
+      "en": "nose",
+      "zh": "鼻子"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 350,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学身体部位！",
+      "pause_after_ms": 200,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn Body!",
+      "pause_after_ms": 650,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 550,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "en",
+      "text": "Eye!",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "眼睛，eye。",
+      "pause_after_ms": 350,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "Eye.",
+      "pause_after_ms": 1950,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "Eye! Good job!",
+      "pause_after_ms": 750,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 550,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Ear!",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "耳朵，ear。",
+      "pause_after_ms": 350,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Ear.",
+      "pause_after_ms": 1950,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "en",
+      "text": "Ear! Good job!",
+      "pause_after_ms": 750,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 550,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Nose!",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "zh",
+      "text": "鼻子，nose。",
+      "pause_after_ms": 350,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "en",
+      "text": "Nose.",
+      "pause_after_ms": 1950,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Nose! Good job!",
+      "pause_after_ms": 750,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 450,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "en",
+      "text": "Eye!",
+      "pause_after_ms": 1400,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "Ear!",
+      "pause_after_ms": 1400,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "en",
+      "text": "Nose!",
+      "pause_after_ms": 1400,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c026",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 350,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c027",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 850,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

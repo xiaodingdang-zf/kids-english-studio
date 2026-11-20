@@ -1,0 +1,492 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_colors_red-blue-yellow_square",
+  "prompt": "做一个方形的颜色",
+  "theme": "colors",
+  "theme_zh": "颜色",
+  "theme_en": "colors",
+  "character": "ollie",
+  "aspect": "square",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "red",
+      "zh": "红色",
+      "hex": "#E0412F"
+    },
+    {
+      "en": "blue",
+      "zh": "蓝色",
+      "hex": "#2F6FE0"
+    },
+    {
+      "en": "yellow",
+      "zh": "黄色",
+      "hex": "#F4C531"
+    },
+    {
+      "en": "green",
+      "zh": "绿色",
+      "hex": "#3FA34D"
+    },
+    {
+      "en": "orange",
+      "zh": "橙色",
+      "hex": "#F08A24"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学颜色！",
+      "pause_after_ms": 100,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn colors!",
+      "pause_after_ms": 350,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么颜色？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "en",
+      "text": "Red!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "红色，red。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "Red.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "Red! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么颜色？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Blue!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "蓝色，blue。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Blue.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "en",
+      "text": "Blue! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么颜色？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Yellow!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "zh",
+      "text": "黄色，yellow。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "en",
+      "text": "Yellow.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Yellow! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么颜色？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 3,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "word",
+      "lang": "en",
+      "text": "Green!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "word",
+      "lang": "zh",
+      "text": "绿色，green。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "word",
+      "lang": "en",
+      "text": "Green.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "word",
+      "lang": "en",
+      "text": "Green! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么颜色？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 4,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "word",
+      "lang": "en",
+      "text": "Orange!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "word",
+      "lang": "zh",
+      "text": "橙色，orange。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c031",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c032",
+      "section": "word",
+      "lang": "en",
+      "text": "Orange.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c033",
+      "section": "word",
+      "lang": "en",
+      "text": "Orange! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c034",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 250,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c035",
+      "section": "review",
+      "lang": "en",
+      "text": "Red!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c036",
+      "section": "review",
+      "lang": "en",
+      "text": "Blue!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c037",
+      "section": "review",
+      "lang": "en",
+      "text": "Yellow!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c038",
+      "section": "review",
+      "lang": "en",
+      "text": "Green!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c039",
+      "section": "review",
+      "lang": "en",
+      "text": "Orange!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c040",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c041",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 500,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

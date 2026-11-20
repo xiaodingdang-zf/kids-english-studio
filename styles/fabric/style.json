@@ -1,0 +1,16 @@
+{
+  "style_id": "fabric",
+  "name": {"zh": "布偶拼布", "en": "Patchwork Fabric"},
+  "prompts": {
+    "common": "handmade patchwork cloth and button-craft stop-motion style, visible cotton weave, decorative running stitches and soft stuffed seams, warm countryside palette, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, soft sewn cloth doll with visible edge stitching and fabric patches",
+    "object": "simple iconic stuffed fabric prop with sewn seams and cotton texture",
+    "background": "quilted patchwork meadow diorama with patterned cotton hills and stitched felt sun, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "quilted cotton patchwork hills under a warm stitched sky",
+  "lighting": "soft sunny afternoon window light",
+  "color_grade": {"warmth": 0.09, "contrast": 1.01, "saturation": 0.99, "vignette": 0.12},
+  "music": "gentle acoustic harp and warm folk-like chords",
+  "music_config": {"mode": "A_minor", "bpm": 86, "instrument": "vsco2_ce_harp"},
+  "sfx": "soft cloth pats and warm chimes"
+}

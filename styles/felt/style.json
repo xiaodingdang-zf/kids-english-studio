@@ -1,0 +1,16 @@
+{
+  "style_id": "felt",
+  "name": {"zh": "羊毛毡", "en": "Wool Felt"},
+  "prompts": {
+    "common": "handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, soft needle-felted wool with tiny stray fibers",
+    "object": "simple iconic object made from needle-felted wool, fuzzy edges and visible fibers",
+    "background": "layered wool-felt diorama with stitched rolling hills and soft felt clouds, calm pastel colors, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "layered pastel wool-felt hills and soft stitched clouds",
+  "lighting": "diffuse warm daylight with gentle textile shadows",
+  "color_grade": {"warmth": 0.06, "contrast": 0.98, "saturation": 0.94, "vignette": 0.14},
+  "music": "gentle plucked notes with a soft toy-like rhythm",
+  "music_config": {"mode": "A_minor", "bpm": 82, "instrument": "vsco2_ce_harp"},
+  "sfx": "muted fabric taps for cards and delicate chimes for repeat prompts"
+}

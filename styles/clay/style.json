@@ -1,0 +1,16 @@
+{
+  "style_id": "clay",
+  "name": {"zh": "手作黏土", "en": "Handmade Clay"},
+  "prompts": {
+    "common": "handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, rounded shapes, cute and friendly for toddlers, no text, no watermark",
+    "character": "full body, front three-quarter view, sculpted plasticine with soft rounded edges",
+    "object": "simple iconic plasticine sculpture with soft rounded edges",
+    "background": "clay stop-motion diorama, cozy sunny meadow table set with clay clouds and a clay sun, soft pastel colors, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "cozy sunny meadow diorama in warm pastel colors",
+  "lighting": "warm soft studio light with gentle sculpted shadows",
+  "color_grade": {"warmth": 0.08, "contrast": 1.03, "saturation": 1.04, "vignette": 0.12},
+  "music": "light playful plucked-string arpeggio at a relaxed tempo",
+  "music_config": {"mode": "C_major", "bpm": 96, "instrument": "vsco2_ce_harp"},
+  "sfx": "soft clay-like pop for cards and small chimes for repeat prompts"
+}

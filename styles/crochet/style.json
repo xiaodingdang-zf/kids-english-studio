@@ -1,0 +1,16 @@
+{
+  "style_id": "crochet",
+  "name": {"zh": "钩织玩偶", "en": "Crochet Yarn"},
+  "prompts": {
+    "common": "handmade amigurumi crochet yarn stop-motion style, distinct knitted/crocheted loop stitches, soft cotton-yarn fuzz, cheerful candy pastel colors, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, plump amigurumi crochet plushie with visible yarn stitches and button-like glossy eyes",
+    "object": "simple iconic amigurumi crocheted prop with clear yarn stitch texture",
+    "background": "colorful crocheted tabletop world with yarn-stitched meadow and fluffy knitted clouds, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "pastel crocheted meadow and fluffy yarn clouds",
+  "lighting": "bright cheerful daylight with soft plush shadows",
+  "color_grade": {"warmth": 0.07, "contrast": 1.00, "saturation": 1.06, "vignette": 0.10},
+  "music": "cheerful pizzicato strings and bright playful bounce",
+  "music_config": {"mode": "C_major", "bpm": 100, "instrument": "vsco2_ce_pizzicato"},
+  "sfx": "soft yarn thumps and bright plucks"
+}

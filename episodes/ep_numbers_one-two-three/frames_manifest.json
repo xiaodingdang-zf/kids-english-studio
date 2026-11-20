@@ -1,0 +1,491 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_numbers_one-two-three",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 1396,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 66,
+      "speech_end_frame": 55,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 66,
+      "end_frame": 127,
+      "speech_end_frame": 119,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天我们一起来学数字！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 127,
+      "end_frame": 168,
+      "speech_end_frame": 154,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn numbers!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 168,
+      "end_frame": 218,
+      "speech_end_frame": 205,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这里有几个？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 218,
+      "end_frame": 239,
+      "speech_end_frame": 229,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "One!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 239,
+      "end_frame": 274,
+      "speech_end_frame": 264,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "一，one。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 274,
+      "end_frame": 298,
+      "speech_end_frame": 290,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 298,
+      "end_frame": 343,
+      "speech_end_frame": 309,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "One.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 343,
+      "end_frame": 390,
+      "speech_end_frame": 374,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "One! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 390,
+      "end_frame": 440,
+      "speech_end_frame": 427,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这里有几个？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 440,
+      "end_frame": 460,
+      "speech_end_frame": 449,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Two!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 460,
+      "end_frame": 495,
+      "speech_end_frame": 484,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "二，two。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 495,
+      "end_frame": 519,
+      "speech_end_frame": 510,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 519,
+      "end_frame": 562,
+      "speech_end_frame": 527,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Two.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 562,
+      "end_frame": 607,
+      "speech_end_frame": 592,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Two! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 607,
+      "end_frame": 658,
+      "speech_end_frame": 644,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这里有几个？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 658,
+      "end_frame": 678,
+      "speech_end_frame": 668,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Three!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 678,
+      "end_frame": 720,
+      "speech_end_frame": 709,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "三，three。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 720,
+      "end_frame": 744,
+      "speech_end_frame": 735,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 744,
+      "end_frame": 788,
+      "speech_end_frame": 753,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Three.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 788,
+      "end_frame": 835,
+      "speech_end_frame": 819,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Three! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 835,
+      "end_frame": 885,
+      "speech_end_frame": 872,
+      "action": "point",
+      "word_index": 3,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这里有几个？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 885,
+      "end_frame": 905,
+      "speech_end_frame": 895,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Four!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 905,
+      "end_frame": 944,
+      "speech_end_frame": 933,
+      "action": "nod",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "四，four。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 944,
+      "end_frame": 968,
+      "speech_end_frame": 959,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 968,
+      "end_frame": 1012,
+      "speech_end_frame": 977,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Four.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1012,
+      "end_frame": 1058,
+      "speech_end_frame": 1042,
+      "action": "clap",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Four! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 1058,
+      "end_frame": 1105,
+      "speech_end_frame": 1093,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "我们来复习一下！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 1105,
+      "end_frame": 1150,
+      "speech_end_frame": 1115,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "One!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 1150,
+      "end_frame": 1193,
+      "speech_end_frame": 1159,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Two!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c031",
+      "start_frame": 1193,
+      "end_frame": 1238,
+      "speech_end_frame": 1203,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Three!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c032",
+      "start_frame": 1238,
+      "end_frame": 1282,
+      "speech_end_frame": 1248,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Four!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c033",
+      "start_frame": 1282,
+      "end_frame": 1341,
+      "speech_end_frame": 1330,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "你真棒！我们下次见！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c034",
+      "start_frame": 1341,
+      "end_frame": 1396,
+      "speech_end_frame": 1356,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:point",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:one",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:two",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:three",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:four",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "background",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:system:Hiragino Sans GB.ttc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:system:Arial Rounded Bold.ttf"
+    }
+  ]
+}

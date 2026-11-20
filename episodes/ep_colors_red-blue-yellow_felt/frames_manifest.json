@@ -1,0 +1,429 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_colors_red-blue-yellow_felt",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 1162,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 66,
+      "speech_end_frame": 55,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 66,
+      "end_frame": 128,
+      "speech_end_frame": 120,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天我们一起来学颜色！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 128,
+      "end_frame": 170,
+      "speech_end_frame": 155,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn colors!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 170,
+      "end_frame": 226,
+      "speech_end_frame": 212,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这是什么颜色？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 226,
+      "end_frame": 244,
+      "speech_end_frame": 233,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Red!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 244,
+      "end_frame": 286,
+      "speech_end_frame": 275,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "红色，red。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 286,
+      "end_frame": 310,
+      "speech_end_frame": 301,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 310,
+      "end_frame": 352,
+      "speech_end_frame": 317,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Red.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 352,
+      "end_frame": 397,
+      "speech_end_frame": 381,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Red! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 397,
+      "end_frame": 452,
+      "speech_end_frame": 439,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这是什么颜色？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 452,
+      "end_frame": 471,
+      "speech_end_frame": 461,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Blue!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 471,
+      "end_frame": 515,
+      "speech_end_frame": 504,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "蓝色，blue。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 515,
+      "end_frame": 539,
+      "speech_end_frame": 531,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 539,
+      "end_frame": 582,
+      "speech_end_frame": 547,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Blue.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 582,
+      "end_frame": 627,
+      "speech_end_frame": 611,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Blue! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 627,
+      "end_frame": 683,
+      "speech_end_frame": 670,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "看！这是什么颜色？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 683,
+      "end_frame": 705,
+      "speech_end_frame": 694,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Yellow!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 705,
+      "end_frame": 751,
+      "speech_end_frame": 740,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "黄色，yellow。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 751,
+      "end_frame": 775,
+      "speech_end_frame": 766,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 775,
+      "end_frame": 821,
+      "speech_end_frame": 786,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Yellow.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 821,
+      "end_frame": 869,
+      "speech_end_frame": 853,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Yellow! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 869,
+      "end_frame": 916,
+      "speech_end_frame": 904,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "我们来复习一下！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 916,
+      "end_frame": 959,
+      "speech_end_frame": 924,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Red!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 959,
+      "end_frame": 1002,
+      "speech_end_frame": 967,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Blue!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1002,
+      "end_frame": 1048,
+      "speech_end_frame": 1013,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Yellow!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1048,
+      "end_frame": 1107,
+      "speech_end_frame": 1096,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "你真棒！我们下次见！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1107,
+      "end_frame": 1162,
+      "speech_end_frame": 1122,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:point",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:red",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:blue",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:yellow",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "background",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:system:Arial Rounded Bold.ttf"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "style_id": "wood",
+  "name": {"zh": "木偶雕刻", "en": "Carved Wood"},
+  "prompts": {
+    "common": "hand-carved satin-varnished wooden toy stop-motion style, subtle natural wood grain and rounded pegged joints, warm cozy workshop feel, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, carved beechwood figurine with smooth painted details and wooden joints",
+    "object": "simple iconic hand-turned wooden block prop with matte-satin stain",
+    "background": "cozy wooden tabletop workshop diorama with carved hills and warm amber light, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "warm wooden toy stage with carved timber hills",
+  "lighting": "warm golden workshop lamp light with rich natural shadows",
+  "color_grade": {"warmth": 0.12, "contrast": 1.05, "saturation": 0.96, "vignette": 0.16},
+  "music": "warm marimba and plucked chords in a gentle storybook waltz",
+  "music_config": {"mode": "C_major", "bpm": 88, "instrument": "vsco2_ce_marimba"},
+  "sfx": "warm wooden block knocks and soft chimes"
+}

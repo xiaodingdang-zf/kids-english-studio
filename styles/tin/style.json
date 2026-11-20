@@ -1,0 +1,16 @@
+{
+  "style_id": "tin",
+  "name": {"zh": "铁皮玩具", "en": "Tin Wind-Up Toy"},
+  "prompts": {
+    "common": "vintage lithographed tinplate toy stop-motion style, painted sheet metal with gentle glossy highlights and tiny folded metal tabs, cheerful retro toy colors, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, stamped painted tinplate wind-up character with a small brass key on the back",
+    "object": "simple iconic painted tinplate toy prop with subtle metallic sheen",
+    "background": "retro tabletop toy stage with painted tin scenery and warm spotlight, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "retro tabletop stage with painted tin backdrop",
+  "lighting": "bright studio key light catching painted metal highlights",
+  "color_grade": {"warmth": 0.05, "contrast": 1.08, "saturation": 1.08, "vignette": 0.14},
+  "music": "playful mechanical glockenspiel chime at an upbeat march tempo",
+  "music_config": {"mode": "C_major", "bpm": 108, "instrument": "vsco2_ce_glock"},
+  "sfx": "light metallic clicks and bright bell chimes"
+}

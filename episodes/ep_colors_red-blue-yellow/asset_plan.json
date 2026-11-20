@@ -1,0 +1,82 @@
+{
+  "items": [
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, standing relaxed, arms down, gentle smile. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, waving hello with right paw raised high, mouth open happily. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, jumping with joy, both paws up, feet off the ground. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, clapping paws together in front of chest, delighted. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, pointing to the right side with right paw, looking right, curious face. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, nodding with eyes half closed, content smile. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown clay fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. Full body, front three-quarter view, cupping right paw behind ear, listening carefully, eyebrows raised. handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/red.png",
+      "kind": "object",
+      "prompt": "a single round blob of red colored clay with a tiny drip on top, centered, handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/blue.png",
+      "kind": "object",
+      "prompt": "a single round blob of blue colored clay with a tiny drip on top, centered, handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/yellow.png",
+      "kind": "object",
+      "prompt": "a single round blob of yellow colored clay with a tiny drip on top, centered, handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/green.png",
+      "kind": "object",
+      "prompt": "a single round blob of green colored clay with a tiny drip on top, centered, handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #FF00FF for easy cut-out, no text, no watermark",
+      "post": "kes cutout --key magenta 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/orange.png",
+      "kind": "object",
+      "prompt": "a single round blob of orange colored clay with a tiny drip on top, centered, handmade clay stop-motion style, soft plasticine texture with subtle fingerprints, warm soft studio light, rounded shapes, cute and friendly for toddlers, solid flat background color #00FF00 for easy cut-out, no text, no watermark",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/colors_portrait.png",
+      "kind": "background",
+      "prompt": "vertical 9:16 clay stop-motion diorama background: a cozy sunny meadow table set with clay clouds and a clay sun, soft pastel colors, empty space in the middle and lower third for characters and word cards, handmade plasticine texture, no characters, no text",
+      "post": "直接存 PNG，不需要抠图"
+    }
+  ]
+}

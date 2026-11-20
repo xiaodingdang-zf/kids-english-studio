@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kes/qc_report.json",
+  "title": "KES QC report",
+  "type": "object",
+  "required": ["schema_version", "episode_id", "status", "publishable", "checks", "blockers"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "episode_id": {"type": "string"},
+    "status": {"enum": ["PASS", "WARN", "FAIL"]},
+    "publishable": {"type": "boolean"},
+    "checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["rule_id", "status", "expected", "actual", "evidence"],
+        "properties": {
+          "rule_id": {"type": "string"},
+          "status": {"enum": ["PASS", "WARN", "FAIL"]},
+          "expected": {},
+          "actual": {},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "blockers": {"type": "array", "items": {"type": "string"}}
+  }
+}

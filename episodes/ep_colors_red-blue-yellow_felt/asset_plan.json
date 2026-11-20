@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/idle.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. standing relaxed, arms down, gentle smile. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/wave.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. waving hello with right paw raised high, mouth open happily. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/jump.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. jumping with joy, both paws up, feet off the ground. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/clap.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. clapping paws together in front of chest, delighted. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/point.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. pointing to the right side with right paw, looking right, curious face. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/nod.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. nodding with eyes half closed, content smile. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/characters/ollie/listen.png",
+      "kind": "character",
+      "prompt": "Ollie, an original little river otter character exactly matching the reference image assets/ollie/concepts/ollie_A.png: chubby round body, warm reddish-brown fur, big cream belly and cream muzzle, small round ears, big glossy black eyes with white highlights, dark brown eyebrows and whiskers, short thick tail, plus a red chunky knitted scarf around the neck (his signature accessory). Curious and slightly clumsy. Original design, not resembling any existing cartoon or brand character. cupping right paw behind ear, listening carefully, eyebrows raised. full body, front three-quarter view, soft needle-felted wool with tiny stray fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "抠掉 #00FF00 背景，存为透明 PNG；所有姿势保持同一造型（先生成 idle 作为参考图再生成其它姿势）"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/objects/colors/red.png",
+      "kind": "object",
+      "prompt": "a single round blob of red color with a tiny bump on top, centered, simple iconic object made from needle-felted wool, fuzzy edges and visible fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/objects/colors/blue.png",
+      "kind": "object",
+      "prompt": "a single round blob of blue color with a tiny bump on top, centered, simple iconic object made from needle-felted wool, fuzzy edges and visible fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/objects/colors/yellow.png",
+      "kind": "object",
+      "prompt": "a single round blob of yellow color with a tiny bump on top, centered, simple iconic object made from needle-felted wool, fuzzy edges and visible fibers. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark. diffuse warm daylight with gentle textile shadows. Solid flat background color #00FF00 for easy cut-out.",
+      "post": "kes cutout --key green 抠图为透明 PNG"
+    },
+    {
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/styles/felt/backgrounds/colors_portrait.png",
+      "kind": "background",
+      "prompt": "vertical 9:16 layered wool-felt diorama with stitched rolling hills and soft felt clouds, calm pastel colors, empty space in the middle and lower third for characters and word cards, no characters, no text. layered pastel wool-felt hills and soft stitched clouds. diffuse warm daylight with gentle textile shadows. handmade needle-felted wool stop-motion style, visible fuzzy fibers and soft grain, rounded child-friendly shapes, original design, no text, no watermark",
+      "post": "直接存 PNG，不需要抠图"
+    }
+  ]
+}

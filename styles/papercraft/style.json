@@ -1,0 +1,16 @@
+{
+  "style_id": "papercraft",
+  "name": {"zh": "纸艺立体", "en": "Papercraft Diorama"},
+  "prompts": {
+    "common": "layered cut-paper diorama stop-motion style, crisp folded cardstock edges with subtle paper grain and depth shadows, bright child-friendly palette, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, assembled from layered matte cardstock with clean folded creases",
+    "object": "simple iconic object crafted from layered cut cardstock with crisp paper edges",
+    "background": "layered paper-cut theatre box diorama with scalloped paper hills, folded paper clouds, and warm backlit depth, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "layered pastel paper-cut hills and backlit cardstock sky",
+  "lighting": "soft backlit paper-theatre glow with crisp layered drop shadows",
+  "color_grade": {"warmth": 0.04, "contrast": 1.05, "saturation": 1.02, "vignette": 0.10},
+  "music": "airy bright flute melody over gentle plucked chords",
+  "music_config": {"mode": "C_major", "bpm": 92, "instrument": "vsco2_ce_flute"},
+  "sfx": "crisp paper rustle and light card pops"
+}

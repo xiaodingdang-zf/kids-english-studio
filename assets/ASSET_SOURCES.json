@@ -1,0 +1,15 @@
+{
+  "characters/ollie/jump.png": "openai:image_gen",
+  "characters/ollie/idle.png": "openai:image_gen",
+  "characters/ollie/point.png": "openai:image_gen",
+  "characters/ollie/wave.png": "openai:image_gen",
+  "characters/ollie/listen.png": "openai:image_gen",
+  "characters/ollie/nod.png": "openai:image_gen",
+  "characters/ollie/clap.png": "openai:image_gen",
+  "objects/colors/yellow.png": "openai:image_gen",
+  "objects/colors/blue.png": "openai:image_gen",
+  "objects/colors/orange.png": "openai:image_gen",
+  "objects/colors/green.png": "openai:image_gen",
+  "objects/colors/red.png": "openai:image_gen",
+  "backgrounds/colors_portrait.png": "openai:image_gen"
+}

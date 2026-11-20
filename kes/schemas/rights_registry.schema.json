@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kes/rights_registry.json",
+  "title": "KES rights registry (素材权利台账)",
+  "type": "object",
+  "required": ["schema_version", "sources"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset_source", "type", "license", "commercial_ok", "proof", "notes"],
+        "properties": {
+          "asset_source": {"type": "string"},
+          "type": {"enum": ["voice", "image", "music", "sfx", "font", "code"]},
+          "license": {"type": "string"},
+          "commercial_ok": {"type": "boolean"},
+          "proof": {"type": ["string", "null"]},
+          "expires": {"type": ["string", "null"]},
+          "verified_on": {"type": ["string", "null"]},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  }
+}

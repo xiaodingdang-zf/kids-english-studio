@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kes/episode.json",
+  "title": "KES episode script",
+  "type": "object",
+  "required": ["schema_version", "episode_id", "theme", "character", "aspect", "target_duration_sec", "words", "cues"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "episode_id": {"type": "string", "pattern": "^ep_[a-z0-9_\\-]+$"},
+    "prompt": {"type": "string"},
+    "theme": {"enum": ["colors", "numbers", "animals", "fruits", "curriculum", "greetings", "family", "body", "school", "animals_level1", "food", "home"]},
+    "theme_zh": {"type": "string"},
+    "theme_en": {"type": "string"},
+    "character": {"type": "string"},
+    "aspect": {"enum": ["portrait", "landscape", "square"]},
+    "style": {"type": "string", "pattern": "^[a-z0-9_-]+$", "default": "clay"},
+    "target_duration_sec": {"type": "integer", "minimum": 20, "maximum": 180},
+    "words": {
+      "type": "array", "minItems": 3, "maxItems": 8,
+      "items": {
+        "type": "object", "required": ["en", "zh"],
+        "properties": {
+          "en": {"type": "string"}, "zh": {"type": "string"},
+          "hex": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
+          "count": {"type": "integer", "minimum": 1}
+        }
+      }
+    },
+    "options": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "style": {"enum": ["clay", "felt", "papercraft", "tin", "cardboard", "wood", "crochet", "fabric"]},
+        "duration_sec": {"type": "integer", "minimum": 20, "maximum": 180},
+        "aspect": {"enum": ["portrait", "landscape", "square"]},
+        "narration": {"enum": ["bilingual", "english"]},
+        "en_voice": {"enum": ["a", "b"]},
+        "opening_closing": {"type": "boolean"},
+        "opening_closing": {"type": "boolean"},
+        "story": {"type": "boolean"}
+      }
+    },
+    "cues": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["cue_id", "section", "lang", "text", "pause_after_ms", "action", "word_index", "show_card", "repeat_prompt"],
+        "additionalProperties": false,
+        "properties": {
+          "cue_id": {"type": "string", "pattern": "^c[0-9]{3}$"},
+          "section": {"enum": ["intro", "story", "word", "review", "outro"]},
+          "lang": {"enum": ["zh", "en"]},
+          "text": {"type": "string", "minLength": 1},
+          "pause_after_ms": {"type": "integer", "minimum": 0, "maximum": 5000},
+          "action": {"enum": ["idle", "wave", "jump", "clap", "point", "nod", "listen"]},
+          "word_index": {"type": ["integer", "null"], "minimum": 0},
+          "show_card": {"type": "boolean"},
+          "repeat_prompt": {"type": "boolean"}
+        }
+      }
+    }
+  }
+}

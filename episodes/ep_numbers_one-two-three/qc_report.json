@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_numbers_one-two-three",
+  "status": "FAIL",
+  "publishable": false,
+  "checked_on": "2026-11-19",
+  "video": "/Users/Apple/Desktop/Vscode/kids-english-studio/episodes/ep_numbers_one-two-three/ep_numbers_one-two-three_mock.mp4",
+  "checks": [
+    {
+      "rule_id": "video.resolution",
+      "status": "PASS",
+      "expected": "1920x1080",
+      "actual": "1920x1080",
+      "evidence": ""
+    },
+    {
+      "rule_id": "video.fps",
+      "status": "PASS",
+      "expected": "24 或 30",
+      "actual": 24.0,
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.present",
+      "status": "PASS",
+      "expected": "有音轨",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "duration.target",
+      "status": "WARN",
+      "expected": "40s ±25%",
+      "actual": 58.17,
+      "evidence": ""
+    },
+    {
+      "rule_id": "sync.av_duration",
+      "status": "PASS",
+      "expected": "音视频时长差 ≤100ms",
+      "actual": "8ms",
+      "evidence": ""
+    },
+    {
+      "rule_id": "sync.timeline",
+      "status": "PASS",
+      "expected": "视频时长 = audio_timeline ±100ms",
+      "actual": "7ms",
+      "evidence": ""
+    },
+    {
+      "rule_id": "timeline.cues_match",
+      "status": "PASS",
+      "expected": "episode/timeline/manifest 句子一致",
+      "actual": "34/34/34",
+      "evidence": ""
+    },
+    {
+      "rule_id": "timeline.no_overlap",
+      "status": "PASS",
+      "expected": "无重叠",
+      "actual": "无",
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.loudness",
+      "status": "PASS",
+      "expected": "-16±1 LUFS",
+      "actual": -16.9,
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.peak",
+      "status": "PASS",
+      "expected": "≤ -1.0 dBFS",
+      "actual": -1.9,
+      "evidence": ""
+    },
+    {
+      "rule_id": "video.black_frames",
+      "status": "PASS",
+      "expected": "无 ≥0.5s 黑场",
+      "actual": "无",
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.one",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.two",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.three",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.four",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.review",
+      "status": "PASS",
+      "expected": "有复习段",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "rights.font:system:Arial Rounded Bold.ttf",
+      "status": "FAIL",
+      "expected": "台账登记且可商用",
+      "actual": "系统字体",
+      "evidence": "建议换成 SIL OFL 圆体字体放到 assets/fonts/en.otf"
+    },
+    {
+      "rule_id": "rights.font:system:Hiragino Sans GB.ttc",
+      "status": "FAIL",
+      "expected": "台账登记且可商用",
+      "actual": "Apple 系统字体",
+      "evidence": "建议换成 SIL OFL 字体（如思源黑体）放到 assets/fonts/zh.otf"
+    },
+    {
+      "rule_id": "rights.kes:procedural",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "原创（KES 代码绘制）",
+      "evidence": "占位黏土画面，由项目代码生成"
+    },
+    {
+      "rule_id": "rights.kes:synth",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "原创（KES 代码合成）",
+      "evidence": "程序化配乐与音效"
+    },
+    {
+      "rule_id": "rights.mock:macos_say",
+      "status": "FAIL",
+      "expected": "台账登记且可商用",
+      "actual": "Apple macOS 系统语音",
+      "evidence": "仅开发预览；发布前必须换成 live 配音"
+    }
+  ],
+  "blockers": [
+    "素材来源 font:system:Arial Rounded Bold.ttf 未登记或不可商用",
+    "素材来源 font:system:Hiragino Sans GB.ttc 未登记或不可商用",
+    "素材来源 mock:macos_say 未登记或不可商用"
+  ]
+}

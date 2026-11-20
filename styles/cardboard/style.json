@@ -1,0 +1,16 @@
+{
+  "style_id": "cardboard",
+  "name": {"zh": "纸箱涂鸦", "en": "Cardboard Craft"},
+  "prompts": {
+    "common": "kid-made corrugated cardboard craft stop-motion style, visible brown kraft paper ridges, masking tape seams and bold crayon/marker accents, playful DIY charm, original design, no text, no watermark",
+    "character": "full body, front three-quarter view, assembled from cut corrugated cardboard layers with hand-drawn marker features",
+    "object": "simple iconic prop cut from corrugated cardboard and colored with bright craft paint",
+    "background": "playroom floor diorama built from taped cardboard boxes and hand-painted kraft paper hills, empty space in the middle and lower third for characters and word cards, no characters, no text"
+  },
+  "background": "handmade cardboard playroom set with kraft sky and taped hills",
+  "lighting": "warm indoor lamp light casting soft craft shadows",
+  "color_grade": {"warmth": 0.10, "contrast": 1.04, "saturation": 0.98, "vignette": 0.12},
+  "music": "bouncy marimba rhythm with playful syncopation",
+  "music_config": {"mode": "C_major", "bpm": 104, "instrument": "vsco2_ce_marimba"},
+  "sfx": "hollow cardboard taps and crisp tape-snap pops"
+}

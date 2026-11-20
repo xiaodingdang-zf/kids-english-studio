@@ -1,0 +1,34 @@
+{
+  "mock": {
+    "zh": {"engine": "macos_say", "voice": "Meijia", "rate": 170, "voice_id": "mock:macos_say:Meijia"},
+    "en": {"engine": "macos_say", "voice": "Samantha", "rate": 135, "voice_id": "mock:macos_say:Samantha"}
+  },
+  "live": {
+    "zh": {
+      "engine": "wanwu",
+      "resource_id": "seed-tts-2.0",
+      "speaker": "zh_female_xiaohe_uranus_bigtts",
+      "speech_rate": -10,
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts"
+    },
+    "en": {
+      "engine": "wanwu",
+      "resource_id": "seed-tts-2.0",
+      "speaker": "zh_female_xiaohe_uranus_bigtts",
+      "speech_rate": -20,
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "_note": "A/B 试音方案 A = 小何念英文。方案 B 换成火山引擎英文音色 ID 即可；注意 wanwu tts 目前把 explicit_language 固定为 zh。"
+    }
+  },
+  "live_en_b": {
+    "engine": "volc_english_native_adapter",
+    "resource_id": "seed-tts-2.0",
+    "speaker": "",
+    "explicit_language": "en",
+    "speech_rate": -20,
+    "voice_id": "",
+    "_note": "英文母语音色 B 预留位；由用户填写 speaker/voice_id，并接入支持英文 explicit_language 的适配器。现有 wanwu 固定 zh，不会用于 B。"
+  },
+  "wanwu_bin": "/Users/Apple/Desktop/Vscode/tools/wanwu-pipeline/bin/wanwu",
+  "context_texts": ["用亲切、活泼、稍慢的语气，给三到六岁的小朋友做英语启蒙。"]
+}

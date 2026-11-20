@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kes/frames_manifest.json",
+  "title": "KES frames manifest",
+  "type": "object",
+  "required": ["schema_version", "episode_id", "width", "height", "fps", "anim_fps", "total_frames", "shots", "assets"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "episode_id": {"type": "string"},
+    "width": {"type": "integer"},
+    "height": {"type": "integer"},
+    "fps": {"type": "integer"},
+    "anim_fps": {"type": "integer"},
+    "total_frames": {"type": "integer", "minimum": 1},
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["cue_id", "start_frame", "end_frame", "camera", "action", "word_index", "show_card", "repeat_prompt", "subtitle"],
+        "properties": {
+          "cue_id": {"type": "string"},
+          "start_frame": {"type": "integer", "minimum": 0},
+          "end_frame": {"type": "integer", "minimum": 0},
+          "camera": {"enum": ["static", "push_in", "pull_out", "pan"]},
+          "action": {"type": "string"},
+          "word_index": {"type": ["integer", "null"]},
+          "show_card": {"type": "boolean"},
+          "repeat_prompt": {"type": "boolean"},
+          "subtitle": {"type": "string"}
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset_id", "path", "asset_source"],
+        "properties": {
+          "asset_id": {"type": "string"},
+          "path": {"type": ["string", "null"]},
+          "asset_source": {"type": "string"}
+        }
+      }
+    }
+  }
+}

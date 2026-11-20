@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "kes/audio_timeline.json",
+  "title": "KES audio timeline (唯一实测时长源)",
+  "type": "object",
+  "required": ["schema_version", "episode_id", "mode", "sample_rate", "total_duration_ms", "master", "lufs", "peak_db", "cues"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "episode_id": {"type": "string"},
+    "mode": {"enum": ["mock", "live"]},
+    "sample_rate": {"type": "integer"},
+    "total_duration_ms": {"type": "integer", "minimum": 1},
+    "master": {"type": "string"},
+    "voice_only": {"type": "string"},
+    "lufs": {"type": ["number", "null"]},
+    "peak_db": {"type": ["number", "null"]},
+    "bgm": {"type": ["object", "null"]},
+    "sfx": {"type": "array"},
+    "cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["cue_id", "lang", "voice_id", "start_ms", "end_ms", "pause_after_ms", "asset_source"],
+        "properties": {
+          "cue_id": {"type": "string"},
+          "lang": {"enum": ["zh", "en"]},
+          "voice_id": {"type": "string"},
+          "start_ms": {"type": "integer", "minimum": 0},
+          "end_ms": {"type": "integer", "minimum": 0},
+          "pause_after_ms": {"type": "integer", "minimum": 0},
+          "asset_source": {"type": "string"}
+        }
+      }
+    }
+  }
+}

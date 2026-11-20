@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "KES visual style pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["style_id", "name", "prompts", "background", "lighting", "color_grade", "music", "sfx"],
+  "properties": {
+    "style_id": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+    "name": {
+      "type": "object", "required": ["zh", "en"], "additionalProperties": false,
+      "properties": {"zh": {"type": "string", "minLength": 1}, "en": {"type": "string", "minLength": 1}}
+    },
+    "prompts": {
+      "type": "object", "required": ["common", "character", "object", "background"], "additionalProperties": false,
+      "properties": {
+        "common": {"type": "string", "minLength": 1},
+        "character": {"type": "string", "minLength": 1},
+        "object": {"type": "string", "minLength": 1},
+        "background": {"type": "string", "minLength": 1}
+      }
+    },
+    "background": {"type": "string", "minLength": 1},
+    "lighting": {"type": "string", "minLength": 1},
+    "color_grade": {
+      "type": "object", "required": ["warmth", "contrast", "saturation", "vignette"], "additionalProperties": false,
+      "properties": {
+        "warmth": {"type": "number", "minimum": -1, "maximum": 1},
+        "contrast": {"type": "number", "minimum": 0.5, "maximum": 1.5},
+        "saturation": {"type": "number", "minimum": 0.5, "maximum": 1.5},
+        "vignette": {"type": "number", "minimum": 0, "maximum": 0.4}
+      }
+    },
+    "music": {"type": "string", "minLength": 1},
+    "music_config": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mode", "bpm", "instrument"],
+      "properties": {
+        "mode": {"enum": ["C_major", "A_minor"]},
+        "bpm": {"type": "integer", "minimum": 60, "maximum": 140},
+        "instrument": {"enum": ["vsco2_ce_harp", "vsco2_ce_pizzicato", "vsco2_ce_glock", "vsco2_ce_marimba", "vsco2_ce_flute"]}
+      }
+    },
+    "sfx": {"type": "string", "minLength": 1}
+  }
+}

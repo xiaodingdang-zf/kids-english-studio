@@ -1,0 +1,325 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_level1_u05e2_book-pen-pencil",
+  "prompt": "做 Level 1 第 5 单元第 2 集",
+  "theme": "curriculum",
+  "theme_zh": "学校与玩具",
+  "theme_en": "School & Toys",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "book",
+      "zh": "书"
+    },
+    {
+      "en": "pen",
+      "zh": "钢笔"
+    },
+    {
+      "en": "pencil",
+      "zh": "铅笔"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学学校与玩具！",
+      "pause_after_ms": 200,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn School & Toys!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "en",
+      "text": "Book!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "书，book。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "Book.",
+      "pause_after_ms": 1750,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "Book! Good job!",
+      "pause_after_ms": 700,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Pen!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "钢笔，pen。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Pen.",
+      "pause_after_ms": 1750,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "en",
+      "text": "Pen! Good job!",
+      "pause_after_ms": 700,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 500,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Pencil!",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "zh",
+      "text": "铅笔，pencil。",
+      "pause_after_ms": 300,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "en",
+      "text": "Pencil.",
+      "pause_after_ms": 1750,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Pencil! Good job!",
+      "pause_after_ms": 700,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "en",
+      "text": "Book!",
+      "pause_after_ms": 1300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "Pen!",
+      "pause_after_ms": 1300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "en",
+      "text": "Pencil!",
+      "pause_after_ms": 1300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c026",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c027",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 800,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}
