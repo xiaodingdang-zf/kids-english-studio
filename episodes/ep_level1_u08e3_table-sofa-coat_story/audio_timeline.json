@@ -1,0 +1,532 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_level1_u08e3_table-sofa-coat_story",
+  "mode": "live",
+  "sample_rate": 48000,
+  "total_duration_ms": 77125,
+  "master": "audio/master_live.wav",
+  "voice_only": "audio/voice_live.wav",
+  "lufs": -16.2,
+  "peak_db": -2.0,
+  "bgm": {
+    "kind": "sampled_original_composition",
+    "asset_source": "vsco2-ce:harp",
+    "license": "CC0-1.0 (recordings); KES original arrangement",
+    "style": "clay",
+    "mode": "C_major",
+    "bpm": 96,
+    "instrument": "vsco2_ce_harp"
+  },
+  "sfx": [
+    {
+      "kind": "swish",
+      "at_ms": 500,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "jump_land",
+      "at_ms": 2233,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "clap",
+      "at_ms": 5049,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 8065,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 12834,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 16596,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 18421,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 18421,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "tap",
+      "at_ms": 19874,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 22044,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 22981,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 24329,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "clap",
+      "at_ms": 25699,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 28618,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 32385,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 34210,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 34210,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "tap",
+      "at_ms": 35850,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 37872,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 38809,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 39940,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "clap",
+      "at_ms": 41310,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 43992,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 47673,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 49499,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 49499,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "tap",
+      "at_ms": 50943,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 52820,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 53757,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 54815,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "clap",
+      "at_ms": 56185,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "jump_land",
+      "at_ms": 59329,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 60901,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 60901,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 61984,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 63354,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 63354,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 64623,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "pop",
+      "at_ms": 65993,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "appear",
+      "at_ms": 65993,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "chime",
+      "at_ms": 67067,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "clap",
+      "at_ms": 68437,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "swish",
+      "at_ms": 71975,
+      "asset_source": "kes:foley"
+    },
+    {
+      "kind": "swish",
+      "at_ms": 74360,
+      "asset_source": "kes:foley"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 500,
+      "end_ms": 1783,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c002",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 2233,
+      "end_ms": 4699,
+      "pause_after_ms": 100,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c003",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 5049,
+      "end_ms": 7465,
+      "pause_after_ms": 350,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c004",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 8065,
+      "end_ms": 12384,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c005",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 12834,
+      "end_ms": 16196,
+      "pause_after_ms": 150,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c006",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 16596,
+      "end_ms": 17871,
+      "pause_after_ms": 300,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c007",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 18421,
+      "end_ms": 19424,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c008",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 19874,
+      "end_ms": 21594,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c009",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 22044,
+      "end_ms": 22631,
+      "pause_after_ms": 100,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c010",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 22981,
+      "end_ms": 24249,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c011",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 25699,
+      "end_ms": 27968,
+      "pause_after_ms": 400,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c012",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 28618,
+      "end_ms": 31985,
+      "pause_after_ms": 150,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c013",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 32385,
+      "end_ms": 33660,
+      "pause_after_ms": 300,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c014",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 34210,
+      "end_ms": 35400,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c015",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 35850,
+      "end_ms": 37422,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c016",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 37872,
+      "end_ms": 38459,
+      "pause_after_ms": 100,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c017",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 38809,
+      "end_ms": 39860,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c018",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 41310,
+      "end_ms": 43342,
+      "pause_after_ms": 400,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c019",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 43992,
+      "end_ms": 47273,
+      "pause_after_ms": 150,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c020",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 47673,
+      "end_ms": 48949,
+      "pause_after_ms": 300,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c021",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 49499,
+      "end_ms": 50493,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c022",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 50943,
+      "end_ms": 52370,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c023",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 52820,
+      "end_ms": 53407,
+      "pause_after_ms": 100,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c024",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 53757,
+      "end_ms": 54735,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c025",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 56185,
+      "end_ms": 58679,
+      "pause_after_ms": 400,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c026",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 59329,
+      "end_ms": 60401,
+      "pause_after_ms": 250,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c027",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 60901,
+      "end_ms": 61904,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c028",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 63354,
+      "end_ms": 64543,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c029",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 65993,
+      "end_ms": 66987,
+      "pause_after_ms": 1200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c030",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 68437,
+      "end_ms": 71525,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c031",
+      "lang": "zh",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 71975,
+      "end_ms": 73910,
+      "pause_after_ms": 200,
+      "asset_source": "volc:seed-tts-2.0"
+    },
+    {
+      "cue_id": "c032",
+      "lang": "en",
+      "voice_id": "volc:seed-tts-2.0:zh_female_xiaohe_uranus_bigtts",
+      "start_ms": 74360,
+      "end_ms": 75475,
+      "pause_after_ms": 500,
+      "asset_source": "volc:seed-tts-2.0"
+    }
+  ]
+}

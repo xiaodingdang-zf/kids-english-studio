@@ -13,5 +13,6 @@ episodes/*/preview/
 *.wav
 *.mp3
 assets/_raw/
+assets/branding/
 .omx/
 .tmp/

@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g3e3_am-is-are",
+  "prompt": "做语法第 3 集",
+  "theme": "grammar",
+  "theme_zh": "人称与 be 动词",
+  "theme_en": "am / is / are",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 75,
+  "options": {
+    "style": "clay",
+    "duration_sec": 75,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  },
+  "words": [
+    {
+      "en": "I",
+      "zh": "我是奥利。",
+      "card_en": "I am Ollie.",
+      "asset_rel": "ollie"
+    },
+    {
+      "en": "she",
+      "zh": "她是我妈妈。",
+      "card_en": "She is my mum.",
+      "asset_rel": "curriculum/mum.png"
+    },
+    {
+      "en": "he",
+      "zh": "他是我爸爸。",
+      "card_en": "He is my dad.",
+      "asset_rel": "curriculum/dad.png"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！今天学小学语法：人称与 be 动词。",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利和好朋友们做自我介绍，I、you、he 后面要配哪个小帮手呢？",
+      "pause_after_ms": 300,
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "zh",
+      "text": "记住口诀：我用 am，你用 are，is 连着他她它，复数全都用 are。",
+      "pause_after_ms": 450,
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn: am / is / are!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 1 组：我是奥利。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "en",
+      "text": "I am Ollie..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "I am Ollie..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "I am Ollie.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 2 组：她是我妈妈。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "She is my mum..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "en",
+      "text": "She is my mum..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "She is my mum.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 3 组：他是我爸爸。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "en",
+      "text": "He is my dad..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "He is my dad..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "en",
+      "text": "He is my dad.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "review",
+      "lang": "zh",
+      "text": "闯关时间到！看看你学会了吗？",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 1 题：我很高兴，填 am 还是 is？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "en",
+      "text": "I hmm happy.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "I am happy.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 2 题：它是一只鸭子，填 is 还是 are？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "en",
+      "text": "It hmm a duck.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "It is a duck.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "outro",
+      "lang": "zh",
+      "text": "今天记住啦：我用 am，你用 are，is 连着他她它，复数全都用 are。你真棒！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 700,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

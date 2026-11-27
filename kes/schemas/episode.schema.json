@@ -8,7 +8,7 @@
     "schema_version": {"const": "1.0"},
     "episode_id": {"type": "string", "pattern": "^ep_[a-z0-9_\\-]+$"},
     "prompt": {"type": "string"},
-    "theme": {"enum": ["colors", "numbers", "animals", "fruits", "curriculum", "greetings", "family", "body", "school", "animals_level1", "food", "home"]},
+    "theme": {"enum": ["colors", "numbers", "animals", "fruits", "curriculum", "greetings", "family", "body", "school", "animals_level1", "food", "home", "grammar"]},
     "theme_zh": {"type": "string"},
     "theme_en": {"type": "string"},
     "character": {"type": "string"},
@@ -22,7 +22,9 @@
         "properties": {
           "en": {"type": "string"}, "zh": {"type": "string"},
           "hex": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
-          "count": {"type": "integer", "minimum": 1}
+          "count": {"type": "integer", "minimum": 1},
+          "card_en": {"type": "string"},
+          "asset_rel": {"type": "string"}
         }
       }
     },

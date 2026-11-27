@@ -1,0 +1,389 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_level1_u07e2_pear-egg-milk_story",
+  "prompt": "做 Level 1 第 7 单元第 2 集",
+  "theme": "curriculum",
+  "theme_zh": "食物与饮料",
+  "theme_en": "Food & Drinks",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "pear",
+      "zh": "梨"
+    },
+    {
+      "en": "egg",
+      "zh": "鸡蛋"
+    },
+    {
+      "en": "milk",
+      "zh": "牛奶"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学食物与饮料！",
+      "pause_after_ms": 100,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn Food & Drinks!",
+      "pause_after_ms": 350,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利在食物与饮料的路上遇到一个难题，要找齐线索！",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "story",
+      "lang": "zh",
+      "text": "第1条线索是梨，奥利继续向前！",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "zh",
+      "text": "梨，pear。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "story",
+      "lang": "zh",
+      "text": "第2条线索是鸡蛋，奥利继续向前！",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Egg!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "鸡蛋，egg。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Egg.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "Egg! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "story",
+      "lang": "zh",
+      "text": "第3条线索是牛奶，奥利继续向前！",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Milk!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "word",
+      "lang": "zh",
+      "text": "牛奶，milk。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "word",
+      "lang": "en",
+      "text": "Milk.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c025",
+      "section": "word",
+      "lang": "en",
+      "text": "Milk! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 250,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "en",
+      "text": "Pear!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "Egg!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c029",
+      "section": "review",
+      "lang": "en",
+      "text": "Milk!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c030",
+      "section": "story",
+      "lang": "zh",
+      "text": "线索找齐了，奥利解决了难题！",
+      "pause_after_ms": 200,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c031",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c032",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 500,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ],
+  "options": {
+    "style": "clay",
+    "duration_sec": 60,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  }
+}

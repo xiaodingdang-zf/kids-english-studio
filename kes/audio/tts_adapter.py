@@ -153,16 +153,27 @@ def _cache_key(text: str, v: dict) -> str:
 
 
 def rebuild_live_cache(work_dir: Path, voices: dict) -> dict:
-    """扫描已有的 live-* 目录，把已付费生成的句子登记进缓存（避免重复计费）。"""
+    """扫描当前及已有集数的 live-* 目录，把已付费生成的句子登记进缓存（避免重复计费）。"""
+    from ..core.common import EPISODES
+    roots = [work_dir]
+    if EPISODES.is_dir():
+        roots.extend(sorted(EPISODES.glob("*/audio")))
     cache = {}
-    for ep_path in sorted(work_dir.glob("live-*/episode.json")):
-        ep = json.loads(ep_path.read_text(encoding="utf-8"))
-        v = ep["voice"]
-        seg = ep_path.parent / "out" / "segments"
-        for line in ep["lines"]:
-            wavs = sorted(seg.glob(f"{line['id']:02d}-attempt*.wav"))
-            if wavs:
-                cache[_cache_key(line["text"], v)] = str(wavs[-1])
+    seen = set()
+    for root in roots:
+        if not root.is_dir():
+            continue
+        for ep_path in sorted(root.glob("live-*/episode.json")):
+            if ep_path in seen:
+                continue
+            seen.add(ep_path)
+            ep = json.loads(ep_path.read_text(encoding="utf-8"))
+            v = ep["voice"]
+            seg = ep_path.parent / "out" / "segments"
+            for line in ep["lines"]:
+                wavs = sorted(seg.glob(f"{line['id']:02d}-attempt*.wav"))
+                if wavs:
+                    cache[_cache_key(line["text"], v)] = str(wavs[-1])
     return cache
 
 
@@ -205,11 +216,19 @@ def synthesize_live(cues: list[dict], voices: dict, work_dir: Path, allow_paid: 
     for gi, (key, group) in enumerate(groups.items(), 1):
         resource_id, speaker, rate = key.split("|")
         voice_id = next(voices["live"][c["lang"]]["voice_id"] for c in group)
+        v_cfg = {"resource_id": resource_id, "speaker": speaker, "speech_rate": int(rate)}
+        unique_lines: list[dict] = []
+        key_to_line_id: dict[str, int] = {}
+        for c in group:
+            ck = _cache_key(c["text"], v_cfg)
+            if ck not in key_to_line_id:
+                key_to_line_id[ck] = len(unique_lines) + 1
+                unique_lines.append({"id": key_to_line_id[ck], "text": c["text"]})
         gdir = work_dir / f"live-{stamp}-g{gi}"
         gdir.mkdir(parents=True, exist_ok=False)
         ep = {
             "title": f"kes {gi}",
-            "lines": [{"id": i, "text": c["text"]} for i, c in enumerate(group, 1)],
+            "lines": unique_lines,
             "voice": {"resource_id": resource_id, "speaker": speaker, "speech_rate": int(rate)},
             "context_texts": voices.get("context_texts", []),
             "pronunciation_dict": {},
@@ -219,9 +238,10 @@ def synthesize_live(cues: list[dict], voices: dict, work_dir: Path, allow_paid: 
         subprocess.run([voices["wanwu_bin"], "tts", str(ep_path), "--output", str(gdir / "out"),
                         "--allow-paid-api"], check=True)
         seg = gdir / "out" / "segments"
-        for i, c in enumerate(group, 1):
-            wavs = sorted(seg.glob(f"{i:02d}-attempt*.wav"))
+        for c in group:
+            lid = key_to_line_id[_cache_key(c["text"], v_cfg)]
+            wavs = sorted(seg.glob(f"{lid:02d}-attempt*.wav"))
             if not wavs:
-                raise RuntimeError(f"wanwu tts 没有产出第 {i} 句：{c['text']}")
+                raise RuntimeError(f"wanwu tts 没有产出第 {lid} 句：{c['text']}")
             out[c["cue_id"]] = (wavs[-1], voice_id)
     return out

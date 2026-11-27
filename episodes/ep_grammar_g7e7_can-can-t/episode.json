@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g7e7_can-can-t",
+  "prompt": "做语法第 7 集",
+  "theme": "grammar",
+  "theme_zh": "情态动词 can / can't",
+  "theme_en": "can / can't",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 75,
+  "options": {
+    "style": "clay",
+    "duration_sec": 75,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  },
+  "words": [
+    {
+      "en": "fish",
+      "zh": "小鱼会游泳。",
+      "card_en": "A fish can swim.",
+      "asset_rel": "animals/fish.png"
+    },
+    {
+      "en": "bird",
+      "zh": "小鸟会飞。",
+      "card_en": "A bird can fly.",
+      "asset_rel": "animals/bird.png"
+    },
+    {
+      "en": "rabbit",
+      "zh": "小兔会跳。",
+      "card_en": "A rabbit can jump.",
+      "asset_rel": "curriculum/rabbit.png"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！今天学小学语法：情态动词 can / can't。",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "story",
+      "lang": "zh",
+      "text": "小鱼会游泳，小鸟会飞，用 can 和 can't 来聊聊本领吧！",
+      "pause_after_ms": 300,
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "zh",
+      "text": "记住口诀：会做用 can 加动词原形，不会做用 can't。",
+      "pause_after_ms": 450,
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn: can / can't!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 1 组：小鱼会游泳。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "en",
+      "text": "A fish can swim..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "A fish can swim..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "A fish can swim.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 2 组：小鸟会飞。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "A bird can fly..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "en",
+      "text": "A bird can fly..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "A bird can fly.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 3 组：小兔会跳。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "en",
+      "text": "A rabbit can jump..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "A rabbit can jump..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "en",
+      "text": "A rabbit can jump.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "review",
+      "lang": "zh",
+      "text": "闯关时间到！看看你学会了吗？",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 1 题：猴子会爬树，填什么？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "en",
+      "text": "A monkey hmm climb.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "A monkey can climb.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 2 题：小鱼不会飞，填 can 还是 can't？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "en",
+      "text": "A fish hmm fly.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "A fish can't fly.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "outro",
+      "lang": "zh",
+      "text": "今天记住啦：会做用 can 加动词原形，不会做用 can't。你真棒！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 700,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

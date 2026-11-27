@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g12e12_plural-es",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2431,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 135,
+      "speech_end_frame": 122,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：名词复数加 es。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 135,
+      "end_frame": 274,
+      "speech_end_frame": 261,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "有些单词变复数时，只加 s 读不顺，要加 es 才好听！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 274,
+      "end_frame": 441,
+      "speech_end_frame": 424,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：以 s、x、ch、sh 结尾的名词，变复数要加 es。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 441,
+      "end_frame": 532,
+      "speech_end_frame": 514,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: Plural -es!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 532,
+      "end_frame": 595,
+      "speech_end_frame": 581,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：两个盒子。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 595,
+      "end_frame": 645,
+      "speech_end_frame": 631,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two boxes.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 645,
+      "end_frame": 669,
+      "speech_end_frame": 659,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 669,
+      "end_frame": 747,
+      "speech_end_frame": 705,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "two boxes.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 747,
+      "end_frame": 825,
+      "speech_end_frame": 807,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two boxes! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 825,
+      "end_frame": 889,
+      "speech_end_frame": 875,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：三个桃子。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 889,
+      "end_frame": 946,
+      "speech_end_frame": 932,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "three peaches.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 946,
+      "end_frame": 970,
+      "speech_end_frame": 961,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 970,
+      "end_frame": 1055,
+      "speech_end_frame": 1013,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "three peaches.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1055,
+      "end_frame": 1127,
+      "speech_end_frame": 1109,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "three peaches! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1127,
+      "end_frame": 1201,
+      "speech_end_frame": 1187,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：两块手表。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1201,
+      "end_frame": 1256,
+      "speech_end_frame": 1241,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two watches.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1256,
+      "end_frame": 1280,
+      "speech_end_frame": 1270,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1280,
+      "end_frame": 1362,
+      "speech_end_frame": 1320,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "two watches.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1362,
+      "end_frame": 1436,
+      "speech_end_frame": 1418,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two watches! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1436,
+      "end_frame": 1513,
+      "speech_end_frame": 1497,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1513,
+      "end_frame": 1642,
+      "speech_end_frame": 1631,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：四个桃子，peach 后面加 s 还是 es？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1642,
+      "end_frame": 1744,
+      "speech_end_frame": 1700,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "four hmm (peach)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1744,
+      "end_frame": 1775,
+      "speech_end_frame": 1765,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1775,
+      "end_frame": 1838,
+      "speech_end_frame": 1818,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "four peaches!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1838,
+      "end_frame": 1965,
+      "speech_end_frame": 1954,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：两本书，book 后面加 s 还是 es？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1965,
+      "end_frame": 2069,
+      "speech_end_frame": 2025,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "two hmm (book)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2069,
+      "end_frame": 2100,
+      "speech_end_frame": 2090,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2100,
+      "end_frame": 2150,
+      "speech_end_frame": 2129,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "two books!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2150,
+      "end_frame": 2359,
+      "speech_end_frame": 2346,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：以 s、x、ch、sh 结尾的名词，变复数要加 es。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2359,
+      "end_frame": 2431,
+      "speech_end_frame": 2386,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:box",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/box.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:peach",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/fruits/peach.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:watch",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/watch.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g2e2_plural-nouns",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2272,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 136,
+      "speech_end_frame": 122,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：名词变复数 -s。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 136,
+      "end_frame": 278,
+      "speech_end_frame": 265,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利数着桌上的小玩意儿，超过一个的时候，单词尾巴要变长哦！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 278,
+      "end_frame": 435,
+      "speech_end_frame": 418,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：只有一个不用加 s，两个及以上在单词末尾加 s。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 435,
+      "end_frame": 523,
+      "speech_end_frame": 505,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: Plural Nouns!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 523,
+      "end_frame": 591,
+      "speech_end_frame": 576,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：两只小猫。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 591,
+      "end_frame": 636,
+      "speech_end_frame": 622,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two cats.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 636,
+      "end_frame": 660,
+      "speech_end_frame": 650,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 660,
+      "end_frame": 733,
+      "speech_end_frame": 691,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "two cats.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 733,
+      "end_frame": 804,
+      "speech_end_frame": 786,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "two cats! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 804,
+      "end_frame": 884,
+      "speech_end_frame": 870,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：三只小狗。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 884,
+      "end_frame": 927,
+      "speech_end_frame": 912,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "three dogs.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 927,
+      "end_frame": 950,
+      "speech_end_frame": 941,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 950,
+      "end_frame": 1020,
+      "speech_end_frame": 978,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "three dogs.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1020,
+      "end_frame": 1093,
+      "speech_end_frame": 1075,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "three dogs! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1093,
+      "end_frame": 1165,
+      "speech_end_frame": 1150,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：四个苹果。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1165,
+      "end_frame": 1216,
+      "speech_end_frame": 1201,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "four apples.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1216,
+      "end_frame": 1239,
+      "speech_end_frame": 1230,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1239,
+      "end_frame": 1318,
+      "speech_end_frame": 1276,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "four apples.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1318,
+      "end_frame": 1397,
+      "speech_end_frame": 1379,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "four apples! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1397,
+      "end_frame": 1474,
+      "speech_end_frame": 1458,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1474,
+      "end_frame": 1574,
+      "speech_end_frame": 1563,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：两本书，book 后面加什么？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1574,
+      "end_frame": 1678,
+      "speech_end_frame": 1634,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "two hmm (book)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1678,
+      "end_frame": 1709,
+      "speech_end_frame": 1699,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1709,
+      "end_frame": 1759,
+      "speech_end_frame": 1738,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "two books!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1759,
+      "end_frame": 1843,
+      "speech_end_frame": 1832,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：三支钢笔怎么说？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1843,
+      "end_frame": 1943,
+      "speech_end_frame": 1898,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "three hmm (pen)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1943,
+      "end_frame": 1973,
+      "speech_end_frame": 1964,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 1973,
+      "end_frame": 2039,
+      "speech_end_frame": 2018,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "three pens!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2039,
+      "end_frame": 2201,
+      "speech_end_frame": 2188,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：只有一个不用加 s，两个及以上在单词末尾加 s。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2201,
+      "end_frame": 2272,
+      "speech_end_frame": 2227,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:cat",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/animals/cat.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:dog",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/animals/dog.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:apple",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/fruits/apple.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g9e9_what-who-where",
+  "prompt": "做语法第 9 集",
+  "theme": "grammar",
+  "theme_zh": "特殊疑问词 What / Who",
+  "theme_en": "What / Who / Where",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 75,
+  "options": {
+    "style": "clay",
+    "duration_sec": 75,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  },
+  "words": [
+    {
+      "en": "desk",
+      "zh": "它是什么？是桌子。",
+      "card_en": "What is it? It's a desk.",
+      "asset_rel": "curriculum/desk.png"
+    },
+    {
+      "en": "grandma",
+      "zh": "她是谁？是奶奶。",
+      "card_en": "Who is she? She's grandma.",
+      "asset_rel": "curriculum/grandma.png"
+    },
+    {
+      "en": "bed",
+      "zh": "奥利在哪？在床上。",
+      "card_en": "Where is Ollie? On the bed.",
+      "asset_rel": "curriculum/bed.png"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！今天学小学语法：特殊疑问词 What / Who。",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利变成小侦探，遇到不知道的东西、人物和地点该怎么问？",
+      "pause_after_ms": 300,
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "zh",
+      "text": "记住口诀：问东西用 What，问人物用 Who，问地点用 Where。",
+      "pause_after_ms": 450,
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn: What / Who / Where!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 1 组：它是什么？是桌子。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "en",
+      "text": "What is it? It's a desk..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "What is it? It's a desk..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "What is it? It's a desk.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 2 组：她是谁？是奶奶。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Who is she? She's grandma..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "en",
+      "text": "Who is she? She's grandma..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Who is she? She's grandma.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 3 组：奥利在哪？在床上。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "en",
+      "text": "Where is Ollie? On the bed..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "Where is Ollie? On the bed..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "en",
+      "text": "Where is Ollie? On the bed.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "review",
+      "lang": "zh",
+      "text": "闯关时间到！看看你学会了吗？",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 1 题：问“这是什么”，用 What 还是 Who？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "en",
+      "text": "hmm is this?",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "What is this?!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 2 题：问“他是谁”，用 What 还是 Who？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "en",
+      "text": "hmm is he?",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "Who is he?!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "outro",
+      "lang": "zh",
+      "text": "今天记住啦：问东西用 What，问人物用 Who，问地点用 Where。你真棒！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 700,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

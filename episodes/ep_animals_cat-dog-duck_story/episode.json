@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "episode_id": "ep_animals_cat-dog-duck_story",
-  "prompt": "做一集动物",
+  "prompt": "做一集 60 秒的幼儿英语：动物，5 个词，奥利主演",
   "theme": "animals",
   "theme_zh": "动物",
   "theme_en": "animals",

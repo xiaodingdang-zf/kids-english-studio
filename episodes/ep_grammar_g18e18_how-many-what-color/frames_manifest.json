@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g18e18_how-many-what-color",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2778,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 146,
+      "speech_end_frame": 132,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：数量与颜色提问。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 146,
+      "end_frame": 280,
+      "speech_end_frame": 266,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利既想数清楚有几个球，又想知道是什么颜色，该怎么问呢？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 280,
+      "end_frame": 430,
+      "speech_end_frame": 413,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：问数量多少用 How many，问什么颜色用 What color。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 430,
+      "end_frame": 523,
+      "speech_end_frame": 505,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: How many / What color!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 523,
+      "end_frame": 614,
+      "speech_end_frame": 600,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：有几个球？五个。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 614,
+      "end_frame": 690,
+      "speech_end_frame": 675,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "How many balls? Five!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 690,
+      "end_frame": 713,
+      "speech_end_frame": 704,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 713,
+      "end_frame": 816,
+      "speech_end_frame": 774,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "How many balls? Five!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 816,
+      "end_frame": 926,
+      "speech_end_frame": 908,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "How many balls? Five! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 926,
+      "end_frame": 1012,
+      "speech_end_frame": 998,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：什么颜色？红色。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 1012,
+      "end_frame": 1088,
+      "speech_end_frame": 1074,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "What color is it? Red!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 1088,
+      "end_frame": 1112,
+      "speech_end_frame": 1102,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 1112,
+      "end_frame": 1216,
+      "speech_end_frame": 1174,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "What color is it? Red!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1216,
+      "end_frame": 1330,
+      "speech_end_frame": 1312,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "What color is it? Red! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1330,
+      "end_frame": 1417,
+      "speech_end_frame": 1403,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：有几只狗？两只。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1417,
+      "end_frame": 1511,
+      "speech_end_frame": 1497,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "How many dogs? Two!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1511,
+      "end_frame": 1535,
+      "speech_end_frame": 1525,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1535,
+      "end_frame": 1656,
+      "speech_end_frame": 1614,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "How many dogs? Two!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1656,
+      "end_frame": 1769,
+      "speech_end_frame": 1751,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "How many dogs? Two! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1769,
+      "end_frame": 1846,
+      "speech_end_frame": 1830,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1846,
+      "end_frame": 1978,
+      "speech_end_frame": 1967,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：问“有几个球”，用 How many 还是 What color？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1978,
+      "end_frame": 2107,
+      "speech_end_frame": 2063,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm balls? Five!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 2107,
+      "end_frame": 2138,
+      "speech_end_frame": 2128,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 2138,
+      "end_frame": 2206,
+      "speech_end_frame": 2186,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "How many balls!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 2206,
+      "end_frame": 2327,
+      "speech_end_frame": 2316,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：问“什么颜色”，用 How many 还是 What color？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 2327,
+      "end_frame": 2443,
+      "speech_end_frame": 2399,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm is it? Red!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2443,
+      "end_frame": 2474,
+      "speech_end_frame": 2464,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2474,
+      "end_frame": 2537,
+      "speech_end_frame": 2516,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "What color is it!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2537,
+      "end_frame": 2707,
+      "speech_end_frame": 2693,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：问数量多少用 How many，问什么颜色用 What color。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2707,
+      "end_frame": 2778,
+      "speech_end_frame": 2733,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:five",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/numbers/five.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:red",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/colors/red.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:two",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/numbers/two.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

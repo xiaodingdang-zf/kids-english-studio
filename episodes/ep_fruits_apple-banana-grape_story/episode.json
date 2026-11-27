@@ -1,0 +1,578 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_fruits_apple-banana-grape_story",
+  "prompt": "做一集 60 秒的幼儿英语：水果，5 个词，奥利主演",
+  "theme": "fruits",
+  "theme_zh": "水果",
+  "theme_en": "fruits",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 60,
+  "words": [
+    {
+      "en": "apple",
+      "zh": "苹果",
+      "hex": "#D93B30"
+    },
+    {
+      "en": "banana",
+      "zh": "香蕉",
+      "hex": "#F5D13B"
+    },
+    {
+      "en": "grape",
+      "zh": "葡萄",
+      "hex": "#7B3FA0"
+    },
+    {
+      "en": "pear",
+      "zh": "梨",
+      "hex": "#C9D65A"
+    },
+    {
+      "en": "peach",
+      "zh": "桃子",
+      "hex": "#F7A88B"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "intro",
+      "lang": "zh",
+      "text": "今天我们一起来学水果！",
+      "pause_after_ms": 100,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn fruits!",
+      "pause_after_ms": 350,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利想准备野餐，篮子里还缺水果！",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "story",
+      "lang": "zh",
+      "text": "第1条线索出现了：苹果！奥利又向前一步。",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么水果？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "en",
+      "text": "Apple!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "zh",
+      "text": "苹果，apple。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "en",
+      "text": "Apple.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "Apple! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "story",
+      "lang": "zh",
+      "text": "第2条线索出现了：香蕉！奥利又向前一步。",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么水果？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "Banana!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "香蕉，banana。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "en",
+      "text": "Banana.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "Banana! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c019",
+      "section": "story",
+      "lang": "zh",
+      "text": "第3条线索出现了：葡萄！奥利又向前一步。",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么水果？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "word",
+      "lang": "en",
+      "text": "Grape!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "word",
+      "lang": "zh",
+      "text": "葡萄，grape。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c023",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "word",
+      "lang": "en",
+      "text": "Grape.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c025",
+      "section": "word",
+      "lang": "en",
+      "text": "Grape! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "story",
+      "lang": "zh",
+      "text": "第4条线索出现了：梨！奥利又向前一步。",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 3,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c027",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么水果？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 3,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "word",
+      "lang": "zh",
+      "text": "梨，pear。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c031",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c032",
+      "section": "word",
+      "lang": "en",
+      "text": "Pear! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c033",
+      "section": "story",
+      "lang": "zh",
+      "text": "第5条线索出现了：桃子！奥利又向前一步。",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 4,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c034",
+      "section": "word",
+      "lang": "zh",
+      "text": "看！这是什么水果？",
+      "pause_after_ms": 300,
+      "action": "point",
+      "word_index": 4,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c035",
+      "section": "word",
+      "lang": "en",
+      "text": "Peach!",
+      "pause_after_ms": 200,
+      "action": "point",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c036",
+      "section": "word",
+      "lang": "zh",
+      "text": "桃子，peach。",
+      "pause_after_ms": 200,
+      "action": "nod",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c037",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 100,
+      "action": "listen",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c038",
+      "section": "word",
+      "lang": "en",
+      "text": "Peach.",
+      "pause_after_ms": 1200,
+      "action": "listen",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c039",
+      "section": "word",
+      "lang": "en",
+      "text": "Peach! Good job!",
+      "pause_after_ms": 400,
+      "action": "clap",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c040",
+      "section": "review",
+      "lang": "zh",
+      "text": "我们来复习一下！",
+      "pause_after_ms": 250,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c041",
+      "section": "review",
+      "lang": "en",
+      "text": "Apple!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c042",
+      "section": "review",
+      "lang": "en",
+      "text": "Banana!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c043",
+      "section": "review",
+      "lang": "en",
+      "text": "Grape!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c044",
+      "section": "review",
+      "lang": "en",
+      "text": "Pear!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 3,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c045",
+      "section": "review",
+      "lang": "en",
+      "text": "Peach!",
+      "pause_after_ms": 1200,
+      "action": "point",
+      "word_index": 4,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c046",
+      "section": "story",
+      "lang": "zh",
+      "text": "野餐篮装好了，大家开动吧！",
+      "pause_after_ms": 200,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c047",
+      "section": "outro",
+      "lang": "zh",
+      "text": "你真棒！我们下次见！",
+      "pause_after_ms": 200,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c048",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 500,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ],
+  "options": {
+    "style": "clay",
+    "duration_sec": 60,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  }
+}

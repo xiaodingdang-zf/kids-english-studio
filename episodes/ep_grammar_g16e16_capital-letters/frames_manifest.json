@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g16e16_capital-letters",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2442,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 130,
+      "speech_end_frame": 116,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：大写字母规则。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 130,
+      "end_frame": 262,
+      "speech_end_frame": 249,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利写英文句子时发现，有三个地方一定要戴上“大写高帽子”！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 262,
+      "end_frame": 432,
+      "speech_end_frame": 415,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：句首第一个字母、人名和单词 I，都要写成大写字母。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 432,
+      "end_frame": 522,
+      "speech_end_frame": 504,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: Capital Letters!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 522,
+      "end_frame": 621,
+      "speech_end_frame": 607,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：句首和称呼首字母大写。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 621,
+      "end_frame": 667,
+      "speech_end_frame": 652,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Hello, Mum!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 667,
+      "end_frame": 691,
+      "speech_end_frame": 681,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 691,
+      "end_frame": 764,
+      "speech_end_frame": 722,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Hello, Mum!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 764,
+      "end_frame": 842,
+      "speech_end_frame": 824,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Hello, Mum! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 842,
+      "end_frame": 938,
+      "speech_end_frame": 923,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：单词 I 永远大写。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 938,
+      "end_frame": 988,
+      "speech_end_frame": 974,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I have a cat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 988,
+      "end_frame": 1012,
+      "speech_end_frame": 1002,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 1012,
+      "end_frame": 1090,
+      "speech_end_frame": 1048,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "I have a cat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1090,
+      "end_frame": 1180,
+      "speech_end_frame": 1162,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I have a cat! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1180,
+      "end_frame": 1267,
+      "speech_end_frame": 1252,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：人名首字母要大写。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1267,
+      "end_frame": 1325,
+      "speech_end_frame": 1310,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Ollie likes cake.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1325,
+      "end_frame": 1348,
+      "speech_end_frame": 1339,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1348,
+      "end_frame": 1434,
+      "speech_end_frame": 1392,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Ollie likes cake.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1434,
+      "end_frame": 1513,
+      "speech_end_frame": 1495,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Ollie likes cake! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1513,
+      "end_frame": 1590,
+      "speech_end_frame": 1574,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1590,
+      "end_frame": 1701,
+      "speech_end_frame": 1690,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：“我有一只猫”，单词 I 要大写吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1701,
+      "end_frame": 1805,
+      "speech_end_frame": 1761,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm have a cat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1805,
+      "end_frame": 1836,
+      "speech_end_frame": 1826,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1836,
+      "end_frame": 1894,
+      "speech_end_frame": 1874,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "I have a cat!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1894,
+      "end_frame": 2004,
+      "speech_end_frame": 1993,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：奥利喜欢蛋糕，人名首字母怎么写？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 2004,
+      "end_frame": 2104,
+      "speech_end_frame": 2059,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm likes cake.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2104,
+      "end_frame": 2134,
+      "speech_end_frame": 2124,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2134,
+      "end_frame": 2197,
+      "speech_end_frame": 2177,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Ollie likes cake!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2197,
+      "end_frame": 2370,
+      "speech_end_frame": 2357,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：句首第一个字母、人名和单词 I，都要写成大写字母。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2370,
+      "end_frame": 2442,
+      "speech_end_frame": 2397,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:mum",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/mum.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:cat",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/animals/cat.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:cake",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/cake.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

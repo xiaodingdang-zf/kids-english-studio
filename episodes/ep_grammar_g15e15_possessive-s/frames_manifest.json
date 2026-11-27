@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g15e15_possessive-s",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2230,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 148,
+      "speech_end_frame": 134,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：名词所有格 's。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 148,
+      "end_frame": 284,
+      "speech_end_frame": 271,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "书包是奥利的，帽子是妈妈的，怎么用英文说“谁的东西”呢？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 284,
+      "end_frame": 432,
+      "speech_end_frame": 415,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：表示“某人的东西”，在人名或称呼后面加上 's。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 432,
+      "end_frame": 516,
+      "speech_end_frame": 498,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: Possessive 's!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 516,
+      "end_frame": 589,
+      "speech_end_frame": 574,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：奥利的书包。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 589,
+      "end_frame": 639,
+      "speech_end_frame": 625,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Ollie's bag.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 639,
+      "end_frame": 663,
+      "speech_end_frame": 653,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 663,
+      "end_frame": 741,
+      "speech_end_frame": 699,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Ollie's bag.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 741,
+      "end_frame": 812,
+      "speech_end_frame": 794,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Ollie's bag! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 812,
+      "end_frame": 887,
+      "speech_end_frame": 872,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：妈妈的帽子。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 887,
+      "end_frame": 932,
+      "speech_end_frame": 918,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Mum's hat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 932,
+      "end_frame": 956,
+      "speech_end_frame": 946,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 956,
+      "end_frame": 1029,
+      "speech_end_frame": 987,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Mum's hat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1029,
+      "end_frame": 1099,
+      "speech_end_frame": 1081,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Mum's hat! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1099,
+      "end_frame": 1171,
+      "speech_end_frame": 1156,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：爸爸的书。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1171,
+      "end_frame": 1212,
+      "speech_end_frame": 1197,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Dad's book.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1212,
+      "end_frame": 1236,
+      "speech_end_frame": 1226,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1236,
+      "end_frame": 1304,
+      "speech_end_frame": 1262,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Dad's book.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1304,
+      "end_frame": 1370,
+      "speech_end_frame": 1352,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Dad's book! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1370,
+      "end_frame": 1447,
+      "speech_end_frame": 1431,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1447,
+      "end_frame": 1549,
+      "speech_end_frame": 1538,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：“奥利的书包”，名字后面加什么？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1549,
+      "end_frame": 1652,
+      "speech_end_frame": 1607,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm bag (Ollie)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1652,
+      "end_frame": 1682,
+      "speech_end_frame": 1673,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1682,
+      "end_frame": 1733,
+      "speech_end_frame": 1713,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Ollie's bag!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1733,
+      "end_frame": 1814,
+      "speech_end_frame": 1804,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：“妈妈的帽子”怎么说？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1814,
+      "end_frame": 1919,
+      "speech_end_frame": 1875,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm hat (Mum)",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1919,
+      "end_frame": 1950,
+      "speech_end_frame": 1940,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 1950,
+      "end_frame": 2002,
+      "speech_end_frame": 1982,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Mum's hat!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2002,
+      "end_frame": 2158,
+      "speech_end_frame": 2145,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：表示“某人的东西”，在人名或称呼后面加上 's。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2158,
+      "end_frame": 2230,
+      "speech_end_frame": 2185,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:bag",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/bag.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:hat",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/hat.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:book",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/book.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

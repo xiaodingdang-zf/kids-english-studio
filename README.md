@@ -1,6 +1,11 @@
 # Kids English Studio (KES)
 
-一句话生成原创幼儿英语启蒙定格动画短片：问卷 → 故事化脚本 → 配音与配乐 → 画面 → QC。工作流程与计费门禁见 [SKILL.md](SKILL.md)，架构见 [PROJECT.md](PROJECT.md)。
+一句话生成原创幼儿英语启蒙与小学语法定格动画短片：问卷 → 故事化/闯关脚本 → 配音与多乐器配乐 → 8 种手作材质画面（标题/闪卡/字幕自适应排版）→ 本地审片台 → 商用权利与技术 QC。工作流程与计费门禁见 [SKILL.md](SKILL.md)，架构见 [PROJECT.md](PROJECT.md)，作品画廊见 [`gallery/index.html`](gallery/index.html)。
+
+支持三类课程生成：
+- **主题词汇短片**：颜色、数字、动物、水果等自由组合词库（`uv run kes script "做一集 60 秒的幼儿英语：颜色，5 个词"`）
+- **Level 1 零基础阶梯课**：8 大单元 32 集（[`curriculum/level1.json`](curriculum/level1.json)，如 `uv run kes script "做 Level 1 第 1 单元第 1 集"`）
+- **小学英语核心语法系列**：G1–G18 共 18 集（[`curriculum/grammar.json`](curriculum/grammar.json)，如 `uv run kes script "做语法第 1 集"`）
 
 ## 本地准备
 
@@ -35,6 +40,6 @@ claude plugin marketplace add "$PWD" && claude plugin install kids-english-studi
 
 ## 许可证与素材
 
-KES 代码和提示词为自研；**本仓库目前未指定代码开源许可证**，不能据此推定有再分发或商用授权。素材分别遵循自己的许可：VSCO 2 CE 采样为 CC0-1.0，开源字体为 SIL OFL 1.1；每类素材的来源、商用状态与凭证以 [`legal/rights_registry.json`](legal/rights_registry.json) 为准。`mock` 系统语音、未登记素材和未完成 QC 的产物不等于可发布成片。不要照搬出版教材内容。
+KES 代码、课程结构与提示词为自研，代码以 [MIT License](LICENSE) 开源。第三方与生成素材分别遵循各自许可：VSCO 2 CE 采样为 CC0-1.0，开源字体为 SIL OFL 1.1；每类素材的来源、商用状态与凭证以 [`legal/rights_registry.json`](legal/rights_registry.json) 为准。`mock` 系统语音、未登记素材和未完成 QC 的产物不等于可发布成片。不要照搬出版教材内容。
 
 开发验证：`uv run pytest -q`。不要对 `episodes/ep_colors_red-blue-yellow` 运行 `kes audio`，以免覆盖正式配音时间轴。

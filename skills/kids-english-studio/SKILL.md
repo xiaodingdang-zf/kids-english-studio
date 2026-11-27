@@ -1,6 +1,6 @@
 ---
 name: kids-english-studio
-description: 把一句话做成幼儿英语启蒙定格动画；先一次问齐，再生成原创故事化脚本、音频、预览、视频和 QC 报告。
+description: 把一句话做成原创幼儿英语启蒙或小学英语语法定格动画短片（支持 8 种手作风格、Level 1 阶梯课程、G1–G18 小学语法系列、配音配乐、审片台与商用 QC）。
 ---
 
 # KES 宿主 agent 对话流程
@@ -17,18 +17,24 @@ description: 把一句话做成幼儿英语启蒙定格动画；先一次问齐�
 uv run kes questions "<用户的一句话>"
 ```
 
-标准输出是一个 JSON 对象，含 `parsed`（解析值）、`questions`（尚需确认）、`defaults`（未明确字段的默认值）。每题 `options[0]` 是默认项。一次把所有 `questions` 列给用户，不分多轮追问：风格 clay/felt、时长 60/30/90/120 秒、画幅竖/横/方、旁白中英/纯英、英文音色 A 小何/B 母语、片头片尾有/无。用户可回复“全部默认”。若主题不在词库，命令报错；先请用户明确主题或扩词库，不猜测。
+标准输出是一个 JSON 对象，含 `parsed`（解析值）、`questions`（尚需确认）、`defaults`（未明确字段的默认值）。每题 `options[0]` 是默认项。一次把所有 `questions` 列给用户，不分多轮追问：8 种手作风格（`clay|felt|papercraft|tin|cardboard|wood|crochet|fabric`）、时长 60/30/90/120 秒、画幅竖/横/方、旁白中英/纯英、英文音色 A 小何/B 母语、片头片尾有/无。用户可回复“全部默认”。若主题不在词库，命令报错；先请用户明确主题或扩词库，不猜测。
 
-B 音色目前只有接口，没有可用的英文适配器和音色 ID；如用户选择 B，须告知此项尚未接通，不能承诺正式配音。
+B 音色已内置 `VolcEnglishAdapter` 接口；若 `kes/audio/voices.json` 中 `en_b.speaker` 尚未填写有效英文音色 ID，须告知用户配置后再启用，不能无配置承诺正式 B 音色配音。
 
-## 3. 写原创故事化教学脚本
+## 3. 写原创故事化教学脚本（支持主题词、Level 1 阶梯课与小学语法系列）
 
 ```sh
-uv run kes script "<原句>" --answers '全部默认'
+# 模式 A：自由主题词汇
+uv run kes script "做一集 60 秒的幼儿英语：颜色，单词：red, blue, yellow" --answers '全部默认'
+# 模式 B：Level 1 零基础阶梯课程（8 单元 × 4 集 = 32 集，见 curriculum/level1.json）
+uv run kes script "做 Level 1 第 1 单元第 1 集"
+# 模式 C：小学英语核心语法系列（G1–G18 共 18 集，见 curriculum/grammar.json）
+uv run kes script "做语法第 1 集"
+# 自定义风格 / 画幅 / 纯英文等参数
 uv run kes script "<原句>" --answers '{"style":"felt","duration_sec":90,"aspect":"square","narration":"english","en_voice":"a","opening_closing":false}'
 ```
 
-答案键为 `style` (`clay|felt`)、`duration_sec` (`30|60|90|120`)、`aspect` (`portrait|landscape|square`)、`narration` (`bilingual|english`)、`en_voice` (`a|b`)、`opening_closing` (`true|false`)；可只传用户改动的键。`episode.json` 的 `options` 保存生效值。默认脚本含原创小情境：奥利遇到问题 → 每个目标词推进情节 → 解决问题；在此过程中保留引入、每词至少三次英文、跟读停顿、复习和片尾。`story` cue 可供宿主 agent 润色；只改 `cues[].text`，不删教学 cue，不改 ID、词索引和停顿结构。纯英文选项会去掉中文 cue；无片头片尾会去掉 intro/outro。
+答案键为 `style` (`clay|felt|papercraft|tin|cardboard|wood|crochet|fabric`)、`duration_sec` (`30|60|90|120`)、`aspect` (`portrait|landscape|square`)、`narration` (`bilingual|english`)、`en_voice` (`a|b`)、`opening_closing` (`true|false`)；可只传用户改动的键。`episode.json` 的 `options` 保存生效值。默认词汇脚本含原创小情境：奥利遇到问题 → 每个目标词推进情节 → 解决问题；语法脚本按「记忆口诀 → 3 组例句跟读 → 2 道互动抢答闯关」编排。在此过程中均保留引入、每项至少三次英文、跟读停顿、复习和片尾。`story` cue 可供宿主 agent 润色；只改 `cues[].text`，不删教学 cue，不改 ID、词索引和停顿结构。纯英文选项会去掉中文 cue；无片头片尾会去掉 intro/outro。
 
 先检查生成脚本的词汇、故事连贯性和实际 cue 数；`target_duration_sec` 是目标，不是实测时长。脚本润色后需重新配音、渲染和 QC。
 
@@ -45,7 +51,7 @@ uv run kes fill-assets <episode_id>
 
 mock 预览：`uv run kes audio <episode_id>`。本地 macOS `say` 在沙盒可能产出静音；若报“静音保护”且指出 cue，停止，不拿无声片段继续出片。需要离线验证时用测试里的假音频；不将假音频作为交付。
 
-live 正式音频：先核对未缓存的句数、实际服务价格与本次预算，取得用户**明确计费同意**后才运行 `uv run kes audio <episode_id> --mode live --allow-paid`。英文音色默认读 `episode.options.en_voice`，命令行 `--en-voice a|b` 可覆盖；B 目前不可用。`audio_timeline.json` 是唯一实测时长源；不要以目标时长冒充成片时长。配乐/拟音自动加入，仍须核对版权台账。
+live 正式音频：先核对未缓存的句数、实际服务价格与本次预算，取得用户**明确计费同意**后才运行 `uv run kes audio <episode_id> --mode live --allow-paid`（内置同集与跨集 TTS 去重缓存，相同台词不会重复计费）。英文音色默认读 `episode.options.en_voice`，命令行 `--en-voice a|b` 可覆盖。`audio_timeline.json` 是唯一实测时长源；不要以目标时长冒充成片时长。多乐器 CC0 采样配乐/程序化拟音自动加入，仍须核对版权台账。
 
 ## 6. 预览帧与审片确认
 

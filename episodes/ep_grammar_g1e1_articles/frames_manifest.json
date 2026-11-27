@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g1e1_articles",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2293,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 137,
+      "speech_end_frame": 124,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：冠词 a 和 an。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 137,
+      "end_frame": 269,
+      "speech_end_frame": 256,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利想拿一个苹果和一本书，可是什么时候说 a，什么时候说 an 呢？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 269,
+      "end_frame": 450,
+      "speech_end_frame": 434,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：元音字母 a、e、i、o、u 开头的发音前用 an，其余用 a。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 450,
+      "end_frame": 572,
+      "speech_end_frame": 554,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: Articles: a / an!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 572,
+      "end_frame": 636,
+      "speech_end_frame": 621,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：一个苹果。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 636,
+      "end_frame": 678,
+      "speech_end_frame": 663,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "an apple.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 678,
+      "end_frame": 701,
+      "speech_end_frame": 692,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 701,
+      "end_frame": 771,
+      "speech_end_frame": 729,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "an apple.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 771,
+      "end_frame": 844,
+      "speech_end_frame": 826,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "an apple! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 844,
+      "end_frame": 910,
+      "speech_end_frame": 895,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：一本书。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 910,
+      "end_frame": 952,
+      "speech_end_frame": 937,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "a book.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 952,
+      "end_frame": 976,
+      "speech_end_frame": 966,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 976,
+      "end_frame": 1045,
+      "speech_end_frame": 1003,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "a book.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1045,
+      "end_frame": 1112,
+      "speech_end_frame": 1094,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "a book! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1112,
+      "end_frame": 1178,
+      "speech_end_frame": 1163,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：一个鸡蛋。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1178,
+      "end_frame": 1223,
+      "speech_end_frame": 1208,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "an egg.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1223,
+      "end_frame": 1246,
+      "speech_end_frame": 1237,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1246,
+      "end_frame": 1319,
+      "speech_end_frame": 1277,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "an egg.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1319,
+      "end_frame": 1393,
+      "speech_end_frame": 1375,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "an egg! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1393,
+      "end_frame": 1470,
+      "speech_end_frame": 1454,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1470,
+      "end_frame": 1567,
+      "speech_end_frame": 1556,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：一只小猫，选 a 还是 an？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1567,
+      "end_frame": 1655,
+      "speech_end_frame": 1611,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm cat",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1655,
+      "end_frame": 1686,
+      "speech_end_frame": 1676,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1686,
+      "end_frame": 1736,
+      "speech_end_frame": 1716,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "a cat!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1736,
+      "end_frame": 1828,
+      "speech_end_frame": 1818,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：一头大象，选 a 还是 an？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1828,
+      "end_frame": 1916,
+      "speech_end_frame": 1871,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm elephant",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1916,
+      "end_frame": 1946,
+      "speech_end_frame": 1937,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 1946,
+      "end_frame": 2005,
+      "speech_end_frame": 1984,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "an elephant!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2005,
+      "end_frame": 2222,
+      "speech_end_frame": 2209,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：元音字母 a、e、i、o、u 开头的发音前用 an，其余用 a。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2222,
+      "end_frame": 2293,
+      "speech_end_frame": 2249,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:apple",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/fruits/apple.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:book",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/book.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:egg",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/egg.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

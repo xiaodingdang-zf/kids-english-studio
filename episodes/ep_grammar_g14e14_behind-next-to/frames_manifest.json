@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g14e14_behind-next-to",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2370,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 129,
+      "speech_end_frame": 116,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：方位介词进阶。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 129,
+      "end_frame": 246,
+      "speech_end_frame": 232,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "小猫又躲起来了，这次它藏在门后面，还是床旁边呢？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 246,
+      "end_frame": 371,
+      "speech_end_frame": 354,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：在后面用 behind，在旁边用 next to。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 371,
+      "end_frame": 480,
+      "speech_end_frame": 462,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: behind / next to!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 480,
+      "end_frame": 552,
+      "speech_end_frame": 537,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：在门后面。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 552,
+      "end_frame": 609,
+      "speech_end_frame": 595,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "behind the door.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 609,
+      "end_frame": 633,
+      "speech_end_frame": 623,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 633,
+      "end_frame": 718,
+      "speech_end_frame": 676,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "behind the door.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 718,
+      "end_frame": 798,
+      "speech_end_frame": 780,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "behind the door! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 798,
+      "end_frame": 874,
+      "speech_end_frame": 859,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：在床旁边。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 874,
+      "end_frame": 931,
+      "speech_end_frame": 917,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "next to the bed.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 931,
+      "end_frame": 955,
+      "speech_end_frame": 945,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 955,
+      "end_frame": 1040,
+      "speech_end_frame": 998,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "next to the bed.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1040,
+      "end_frame": 1118,
+      "speech_end_frame": 1100,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "next to the bed! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1118,
+      "end_frame": 1203,
+      "speech_end_frame": 1188,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：在沙发后面。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1203,
+      "end_frame": 1273,
+      "speech_end_frame": 1258,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "behind the sofa.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1273,
+      "end_frame": 1296,
+      "speech_end_frame": 1287,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1296,
+      "end_frame": 1394,
+      "speech_end_frame": 1352,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "behind the sofa.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1394,
+      "end_frame": 1484,
+      "speech_end_frame": 1466,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "behind the sofa! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1484,
+      "end_frame": 1561,
+      "speech_end_frame": 1545,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1561,
+      "end_frame": 1669,
+      "speech_end_frame": 1659,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：在窗户旁边，用 behind 还是 next to？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1669,
+      "end_frame": 1769,
+      "speech_end_frame": 1725,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm the window",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1769,
+      "end_frame": 1799,
+      "speech_end_frame": 1790,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1799,
+      "end_frame": 1867,
+      "speech_end_frame": 1847,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "next to the window!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1867,
+      "end_frame": 1980,
+      "speech_end_frame": 1969,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：在椅子后面，用 behind 还是 next to？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1980,
+      "end_frame": 2064,
+      "speech_end_frame": 2020,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm the chair",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2064,
+      "end_frame": 2095,
+      "speech_end_frame": 2085,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2095,
+      "end_frame": 2163,
+      "speech_end_frame": 2143,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "behind the chair!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2163,
+      "end_frame": 2299,
+      "speech_end_frame": 2286,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：在后面用 behind，在旁边用 next to。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2299,
+      "end_frame": 2370,
+      "speech_end_frame": 2326,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:door",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/door.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:bed",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/bed.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:sofa",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/sofa.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

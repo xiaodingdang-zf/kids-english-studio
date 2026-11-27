@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g4e4_my-your-his-her",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2151,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 144,
+      "speech_end_frame": 131,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：物主代词 my / your。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 144,
+      "end_frame": 276,
+      "speech_end_frame": 263,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "书包和帽子混在一起啦，快用 my 和 your 分清楚是谁的吧！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 276,
+      "end_frame": 429,
+      "speech_end_frame": 413,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：我的用 my，你的用 your，男他用 his，女她用 her。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 429,
+      "end_frame": 543,
+      "speech_end_frame": 525,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: my / your / his / her!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 543,
+      "end_frame": 609,
+      "speech_end_frame": 595,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：我的书包。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 609,
+      "end_frame": 648,
+      "speech_end_frame": 633,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "my bag.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 648,
+      "end_frame": 671,
+      "speech_end_frame": 662,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 671,
+      "end_frame": 738,
+      "speech_end_frame": 696,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "my bag.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 738,
+      "end_frame": 803,
+      "speech_end_frame": 785,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "my bag! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 803,
+      "end_frame": 868,
+      "speech_end_frame": 854,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：你的帽子。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 868,
+      "end_frame": 913,
+      "speech_end_frame": 899,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "your hat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 913,
+      "end_frame": 937,
+      "speech_end_frame": 927,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 937,
+      "end_frame": 1009,
+      "speech_end_frame": 967,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "your hat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1009,
+      "end_frame": 1088,
+      "speech_end_frame": 1070,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "your hat! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1088,
+      "end_frame": 1151,
+      "speech_end_frame": 1137,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：他的外套。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1151,
+      "end_frame": 1193,
+      "speech_end_frame": 1179,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "his coat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1193,
+      "end_frame": 1217,
+      "speech_end_frame": 1207,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1217,
+      "end_frame": 1286,
+      "speech_end_frame": 1244,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "his coat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1286,
+      "end_frame": 1357,
+      "speech_end_frame": 1339,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "his coat! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1357,
+      "end_frame": 1434,
+      "speech_end_frame": 1419,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1434,
+      "end_frame": 1504,
+      "speech_end_frame": 1493,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：“我的书”怎么说？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1504,
+      "end_frame": 1585,
+      "speech_end_frame": 1541,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm book",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1585,
+      "end_frame": 1615,
+      "speech_end_frame": 1606,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1615,
+      "end_frame": 1666,
+      "speech_end_frame": 1645,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "my book!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1666,
+      "end_frame": 1737,
+      "speech_end_frame": 1726,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：“她的洋娃娃”怎么说？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1737,
+      "end_frame": 1818,
+      "speech_end_frame": 1773,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm doll",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 1818,
+      "end_frame": 1848,
+      "speech_end_frame": 1838,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 1848,
+      "end_frame": 1903,
+      "speech_end_frame": 1882,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "her doll!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 1903,
+      "end_frame": 2079,
+      "speech_end_frame": 2066,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：我的用 my，你的用 your，男他用 his，女她用 her。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2079,
+      "end_frame": 2151,
+      "speech_end_frame": 2106,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:bag",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/bag.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:hat",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/hat.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:coat",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/coat.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

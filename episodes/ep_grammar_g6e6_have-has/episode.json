@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g6e6_have-has",
+  "prompt": "做语法第 6 集",
+  "theme": "grammar",
+  "theme_zh": "拥有 have / has",
+  "theme_en": "have / has",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 75,
+  "options": {
+    "style": "clay",
+    "duration_sec": 75,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  },
+  "words": [
+    {
+      "en": "toy",
+      "zh": "我有一个玩具。",
+      "card_en": "I have a toy.",
+      "asset_rel": "curriculum/toy.png"
+    },
+    {
+      "en": "doll",
+      "zh": "她有一个洋娃娃。",
+      "card_en": "She has a doll.",
+      "asset_rel": "curriculum/doll.png"
+    },
+    {
+      "en": "cake",
+      "zh": "我们有一个蛋糕。",
+      "card_en": "We have a cake.",
+      "asset_rel": "curriculum/cake.png"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！今天学小学语法：拥有 have / has。",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利和妹妹各有各的玩具，“有”什么时候用 have，什么时候用 has？",
+      "pause_after_ms": 300,
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "zh",
+      "text": "记住口诀：I、you 和复数用 have，he、she、it 单数第三人称用 has。",
+      "pause_after_ms": 450,
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn: have / has!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 1 组：我有一个玩具。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "en",
+      "text": "I have a toy..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "I have a toy..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "I have a toy.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 2 组：她有一个洋娃娃。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "She has a doll..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "en",
+      "text": "She has a doll..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "She has a doll.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 3 组：我们有一个蛋糕。。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "en",
+      "text": "We have a cake..",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "We have a cake..",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "en",
+      "text": "We have a cake.! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "review",
+      "lang": "zh",
+      "text": "闯关时间到！看看你学会了吗？",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 1 题：他有一本书，用 have 还是 has？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "en",
+      "text": "He hmm a book.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "He has a book.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 2 题：我有一只猫，用 have 还是 has？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "en",
+      "text": "I hmm a cat.",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "I have a cat.!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "outro",
+      "lang": "zh",
+      "text": "今天记住啦：I、you 和复数用 have，he、she、it 单数第三人称用 has。你真棒！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 700,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

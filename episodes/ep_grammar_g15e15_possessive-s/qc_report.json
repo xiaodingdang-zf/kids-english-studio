@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g15e15_possessive-s",
+  "status": "PASS",
+  "publishable": true,
+  "checked_on": "2026-11-27",
+  "video": "/Users/Apple/Desktop/Vscode/kids-english-studio/episodes/ep_grammar_g15e15_possessive-s/ep_grammar_g15e15_possessive-s_live.mp4",
+  "checks": [
+    {
+      "rule_id": "video.resolution",
+      "status": "PASS",
+      "expected": "1080x1920",
+      "actual": "1080x1920",
+      "evidence": ""
+    },
+    {
+      "rule_id": "video.fps",
+      "status": "PASS",
+      "expected": "24 或 30",
+      "actual": 24.0,
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.present",
+      "status": "PASS",
+      "expected": "有音轨",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "duration.target",
+      "status": "PASS",
+      "expected": "75s ±25%",
+      "actual": 92.92,
+      "evidence": ""
+    },
+    {
+      "rule_id": "sync.av_duration",
+      "status": "PASS",
+      "expected": "音视频时长差 ≤100ms",
+      "actual": "29ms",
+      "evidence": ""
+    },
+    {
+      "rule_id": "sync.timeline",
+      "status": "PASS",
+      "expected": "视频时长 = audio_timeline ±100ms",
+      "actual": "29ms",
+      "evidence": ""
+    },
+    {
+      "rule_id": "timeline.cues_match",
+      "status": "PASS",
+      "expected": "episode/timeline/manifest 句子一致",
+      "actual": "30/30/30",
+      "evidence": ""
+    },
+    {
+      "rule_id": "timeline.no_overlap",
+      "status": "PASS",
+      "expected": "无重叠",
+      "actual": "无",
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.loudness",
+      "status": "PASS",
+      "expected": "-16±1 LUFS",
+      "actual": -16.0,
+      "evidence": ""
+    },
+    {
+      "rule_id": "audio.peak",
+      "status": "PASS",
+      "expected": "≤ -1.0 dBFS",
+      "actual": -2.0,
+      "evidence": ""
+    },
+    {
+      "rule_id": "video.black_frames",
+      "status": "PASS",
+      "expected": "无 ≥0.5s 黑场",
+      "actual": "无",
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.bag",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.pause.bag",
+      "status": "PASS",
+      "expected": "有 ≥1200ms 跟读停顿",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.hat",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.pause.hat",
+      "status": "PASS",
+      "expected": "有 ≥1200ms 跟读停顿",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.repeat.book",
+      "status": "PASS",
+      "expected": "≥3 次英文",
+      "actual": 3,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.pause.book",
+      "status": "PASS",
+      "expected": "有 ≥1200ms 跟读停顿",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "pedagogy.review",
+      "status": "PASS",
+      "expected": "有复习段",
+      "actual": true,
+      "evidence": ""
+    },
+    {
+      "rule_id": "rights.font:ofl:nunito",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "SIL Open Font License 1.1 (OFL)",
+      "evidence": "英文圆体，可用于商业用途。存放于 assets/fonts/en.ttf"
+    },
+    {
+      "rule_id": "rights.font:ofl:source-han-sans-sc",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "SIL Open Font License 1.1 (OFL)",
+      "evidence": "思源黑体 Source Han Sans SC，可用于商业用途。存放于 assets/fonts/zh.otf"
+    },
+    {
+      "rule_id": "rights.kes:foley",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "原创（KES 代码合成）",
+      "evidence": "卡片弹出、跳起落地、拍手、物体出现等拟音均由代码合成；未使用外部音效素材"
+    },
+    {
+      "rule_id": "rights.openai:image_gen",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "OpenAI 服务条款：用户拥有生成内容（Output）的权利",
+      "evidence": "发布到抖音/视频号需按平台规定标注 AI 生成内容；条款以发布时 OpenAI 现行版本为准"
+    },
+    {
+      "rule_id": "rights.volc:seed-tts-2.0",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "火山引擎语音合成付费服务",
+      "evidence": "多多哥确认商用条款并补充凭证后保持 true；如未确认请改为 false"
+    },
+    {
+      "rule_id": "rights.vsco2-ce:harp",
+      "status": "PASS",
+      "expected": "台账登记且可商用",
+      "actual": "CC0-1.0 (VSCO 2 Community Edition sampled recordings); KES original arrangement",
+      "evidence": "Versilian Studios 官方竖琴录音；下载地址 https://github.com/sgossner/VSCO-2-CE ，脚本 scripts/fetch_samples.sh；和弦、旋律、低音为 KES 原创编排。仅当 4 个采样齐备可解码时使用该来源。"
+    }
+  ],
+  "blockers": []
+}

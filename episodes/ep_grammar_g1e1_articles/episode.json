@@ -1,0 +1,373 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g1e1_articles",
+  "prompt": "做语法第 1 集",
+  "theme": "grammar",
+  "theme_zh": "冠词 a 和 an",
+  "theme_en": "Articles: a / an",
+  "character": "ollie",
+  "aspect": "portrait",
+  "style": "clay",
+  "target_duration_sec": 75,
+  "options": {
+    "style": "clay",
+    "duration_sec": 75,
+    "aspect": "portrait",
+    "narration": "bilingual",
+    "en_voice": "a",
+    "opening_closing": true,
+    "story": true
+  },
+  "words": [
+    {
+      "en": "apple",
+      "zh": "一个苹果",
+      "card_en": "an apple",
+      "asset_rel": "fruits/apple.png"
+    },
+    {
+      "en": "book",
+      "zh": "一本书",
+      "card_en": "a book",
+      "asset_rel": "curriculum/book.png"
+    },
+    {
+      "en": "egg",
+      "zh": "一个鸡蛋",
+      "card_en": "an egg",
+      "asset_rel": "curriculum/egg.png"
+    }
+  ],
+  "cues": [
+    {
+      "cue_id": "c001",
+      "section": "intro",
+      "lang": "zh",
+      "text": "大家好，我是奥利！今天学小学语法：冠词 a 和 an。",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c002",
+      "section": "story",
+      "lang": "zh",
+      "text": "奥利想拿一个苹果和一本书，可是什么时候说 a，什么时候说 an 呢？",
+      "pause_after_ms": 300,
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c003",
+      "section": "intro",
+      "lang": "zh",
+      "text": "记住口诀：元音字母 a、e、i、o、u 开头的发音前用 an，其余用 a。",
+      "pause_after_ms": 450,
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c004",
+      "section": "intro",
+      "lang": "en",
+      "text": "Let's learn: Articles: a / an!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c005",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 1 组：一个苹果。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c006",
+      "section": "word",
+      "lang": "en",
+      "text": "an apple.",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c007",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c008",
+      "section": "word",
+      "lang": "en",
+      "text": "an apple.",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c009",
+      "section": "word",
+      "lang": "en",
+      "text": "an apple! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c010",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 2 组：一本书。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c011",
+      "section": "word",
+      "lang": "en",
+      "text": "a book.",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c012",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c013",
+      "section": "word",
+      "lang": "en",
+      "text": "a book.",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c014",
+      "section": "word",
+      "lang": "en",
+      "text": "a book! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c015",
+      "section": "word",
+      "lang": "zh",
+      "text": "来看第 3 组：一个鸡蛋。",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c016",
+      "section": "word",
+      "lang": "en",
+      "text": "an egg.",
+      "pause_after_ms": 350,
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c017",
+      "section": "word",
+      "lang": "zh",
+      "text": "跟我念！",
+      "pause_after_ms": 150,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c018",
+      "section": "word",
+      "lang": "en",
+      "text": "an egg.",
+      "pause_after_ms": 1500,
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c019",
+      "section": "word",
+      "lang": "en",
+      "text": "an egg! Good job!",
+      "pause_after_ms": 500,
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c020",
+      "section": "review",
+      "lang": "zh",
+      "text": "闯关时间到！看看你学会了吗？",
+      "pause_after_ms": 400,
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c021",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 1 题：一只小猫，选 a 还是 an？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c022",
+      "section": "review",
+      "lang": "en",
+      "text": "hmm cat",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c023",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c024",
+      "section": "review",
+      "lang": "en",
+      "text": "a cat!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c025",
+      "section": "review",
+      "lang": "zh",
+      "text": "第 2 题：一头大象，选 a 还是 an？",
+      "pause_after_ms": 200,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c026",
+      "section": "review",
+      "lang": "en",
+      "text": "hmm elephant",
+      "pause_after_ms": 1600,
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true
+    },
+    {
+      "cue_id": "c027",
+      "section": "review",
+      "lang": "zh",
+      "text": "答案是：",
+      "pause_after_ms": 150,
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c028",
+      "section": "review",
+      "lang": "en",
+      "text": "an elephant!",
+      "pause_after_ms": 600,
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c029",
+      "section": "outro",
+      "lang": "zh",
+      "text": "今天记住啦：元音字母 a、e、i、o、u 开头的发音前用 an，其余用 a。你真棒！",
+      "pause_after_ms": 300,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    },
+    {
+      "cue_id": "c030",
+      "section": "outro",
+      "lang": "en",
+      "text": "Bye-bye!",
+      "pause_after_ms": 700,
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false
+    }
+  ]
+}

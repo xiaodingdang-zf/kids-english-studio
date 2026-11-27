@@ -105,6 +105,15 @@ def test_square_preview_and_qc_resolution(tmp_path, monkeypatch):
     assert all(c["status"] == "PASS" for c in report["checks"] if c["rule_id"].startswith("pedagogy.pause."))
 
 
+def test_long_subtitle_wraps_without_clipping():
+    from kes.visual.render import _card, _subtitle
+    im = _subtitle("奥利想拿一个苹果和一本书，可是什么时候说 a，什么时候说 an 呢？", 960)
+    assert im.width <= 960
+    assert im.height > 100  # wrapped onto multiple lines
+    card = _card("Who is she? She's grandma.", "她是谁？是奶奶。", None, 900, 320, 100)
+    assert card.size == (900, 320)
+
+
 def test_live_blocked_without_approval(tmp_path):
     import pytest
     from kes.audio.tts_adapter import PaidCallBlocked

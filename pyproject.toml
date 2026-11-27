@@ -1,6 +1,6 @@
 [project]
 name = "kids-english-studio"
-version = "0.1.0"
+version = "0.2.0"
 description = "一句话 → 自动产出一支幼儿英语定格动画短视频 (KES)"
 requires-python = ">=3.11,<3.14"
 dependencies = [

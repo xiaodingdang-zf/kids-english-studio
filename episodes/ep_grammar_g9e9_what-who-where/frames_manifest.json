@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g9e9_what-who-where",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2724,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 184,
+      "speech_end_frame": 171,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：特殊疑问词 What / Who。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 184,
+      "end_frame": 320,
+      "speech_end_frame": 306,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利变成小侦探，遇到不知道的东西、人物和地点该怎么问？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 320,
+      "end_frame": 480,
+      "speech_end_frame": 463,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：问东西用 What，问人物用 Who，问地点用 Where。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 480,
+      "end_frame": 584,
+      "speech_end_frame": 566,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: What / Who / Where!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 584,
+      "end_frame": 681,
+      "speech_end_frame": 666,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：它是什么？是桌子。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 681,
+      "end_frame": 756,
+      "speech_end_frame": 741,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "What is it? It's a desk..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 756,
+      "end_frame": 779,
+      "speech_end_frame": 770,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 779,
+      "end_frame": 882,
+      "speech_end_frame": 840,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "What is it? It's a desk..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 882,
+      "end_frame": 1003,
+      "speech_end_frame": 985,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "What is it? It's a desk.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 1003,
+      "end_frame": 1089,
+      "speech_end_frame": 1075,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：她是谁？是奶奶。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 1089,
+      "end_frame": 1176,
+      "speech_end_frame": 1162,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Who is she? She's grandma..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 1176,
+      "end_frame": 1200,
+      "speech_end_frame": 1190,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 1200,
+      "end_frame": 1314,
+      "speech_end_frame": 1272,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Who is she? She's grandma..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1314,
+      "end_frame": 1422,
+      "speech_end_frame": 1404,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Who is she? She's grandma.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1422,
+      "end_frame": 1520,
+      "speech_end_frame": 1505,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：奥利在哪？在床上。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1520,
+      "end_frame": 1602,
+      "speech_end_frame": 1587,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Where is Ollie? On the bed..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1602,
+      "end_frame": 1625,
+      "speech_end_frame": 1616,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1625,
+      "end_frame": 1735,
+      "speech_end_frame": 1693,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "Where is Ollie? On the bed..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1735,
+      "end_frame": 1858,
+      "speech_end_frame": 1840,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "Where is Ollie? On the bed.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1858,
+      "end_frame": 1935,
+      "speech_end_frame": 1919,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1935,
+      "end_frame": 2042,
+      "speech_end_frame": 2032,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：问“这是什么”，用 What 还是 Who？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 2042,
+      "end_frame": 2124,
+      "speech_end_frame": 2079,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm is this?",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 2124,
+      "end_frame": 2154,
+      "speech_end_frame": 2145,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 2154,
+      "end_frame": 2209,
+      "speech_end_frame": 2189,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "What is this?!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 2209,
+      "end_frame": 2309,
+      "speech_end_frame": 2299,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：问“他是谁”，用 What 还是 Who？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 2309,
+      "end_frame": 2384,
+      "speech_end_frame": 2340,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "hmm is he?",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2384,
+      "end_frame": 2415,
+      "speech_end_frame": 2405,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2415,
+      "end_frame": 2466,
+      "speech_end_frame": 2446,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Who is he?!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2466,
+      "end_frame": 2652,
+      "speech_end_frame": 2639,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：问东西用 What，问人物用 Who，问地点用 Where。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2652,
+      "end_frame": 2724,
+      "speech_end_frame": 2679,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:desk",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/desk.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:grandma",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/grandma.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:bed",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/bed.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

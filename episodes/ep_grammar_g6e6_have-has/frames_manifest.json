@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g6e6_have-has",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2424,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 133,
+      "speech_end_frame": 119,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：拥有 have / has。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 133,
+      "end_frame": 276,
+      "speech_end_frame": 263,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利和妹妹各有各的玩具，“有”什么时候用 have，什么时候用 has？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 276,
+      "end_frame": 445,
+      "speech_end_frame": 428,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：I、you 和复数用 have，he、she、it 单数第三人称用 has。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 445,
+      "end_frame": 542,
+      "speech_end_frame": 524,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: have / has!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 542,
+      "end_frame": 620,
+      "speech_end_frame": 606,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：我有一个玩具。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 620,
+      "end_frame": 660,
+      "speech_end_frame": 646,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I have a toy..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 660,
+      "end_frame": 684,
+      "speech_end_frame": 674,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 684,
+      "end_frame": 752,
+      "speech_end_frame": 710,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "I have a toy..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 752,
+      "end_frame": 840,
+      "speech_end_frame": 822,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I have a toy.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 840,
+      "end_frame": 924,
+      "speech_end_frame": 910,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：她有一个洋娃娃。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 924,
+      "end_frame": 982,
+      "speech_end_frame": 967,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "She has a doll..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 982,
+      "end_frame": 1005,
+      "speech_end_frame": 996,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 1005,
+      "end_frame": 1090,
+      "speech_end_frame": 1048,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "She has a doll..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1090,
+      "end_frame": 1181,
+      "speech_end_frame": 1163,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "She has a doll.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1181,
+      "end_frame": 1256,
+      "speech_end_frame": 1241,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：我们有一个蛋糕。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1256,
+      "end_frame": 1307,
+      "speech_end_frame": 1292,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "We have a cake..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1307,
+      "end_frame": 1330,
+      "speech_end_frame": 1321,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1330,
+      "end_frame": 1409,
+      "speech_end_frame": 1367,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "We have a cake..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1409,
+      "end_frame": 1509,
+      "speech_end_frame": 1491,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "We have a cake.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1509,
+      "end_frame": 1586,
+      "speech_end_frame": 1570,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1586,
+      "end_frame": 1702,
+      "speech_end_frame": 1692,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：他有一本书，用 have 还是 has？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1702,
+      "end_frame": 1806,
+      "speech_end_frame": 1761,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "He hmm a book.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1806,
+      "end_frame": 1836,
+      "speech_end_frame": 1826,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1836,
+      "end_frame": 1892,
+      "speech_end_frame": 1871,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "He has a book.!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1892,
+      "end_frame": 1998,
+      "speech_end_frame": 1987,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：我有一只猫，用 have 还是 has？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 1998,
+      "end_frame": 2064,
+      "speech_end_frame": 2020,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "I hmm a cat.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2064,
+      "end_frame": 2095,
+      "speech_end_frame": 2085,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2095,
+      "end_frame": 2143,
+      "speech_end_frame": 2123,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "I have a cat.!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2143,
+      "end_frame": 2353,
+      "speech_end_frame": 2339,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：I、you 和复数用 have，he、she、it 单数第三人称用 has。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2353,
+      "end_frame": 2424,
+      "speech_end_frame": 2379,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:toy",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/toy.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:doll",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/doll.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:cake",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/cake.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

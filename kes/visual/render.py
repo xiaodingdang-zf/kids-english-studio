@@ -127,8 +127,12 @@ def _resolve_assets(episode: dict) -> dict[str, tuple[str | None, str]]:
             out[f"closeup:{expression}"] = (str(p), _registered_source(p))
     for w in episode["words"]:
         p = asset_root / "objects" / episode["theme"] / f"{w['en']}.png"
+        if not p.exists() and w.get("asset_rel"):
+            p = asset_root / "objects" / w["asset_rel"]
         out[f"object:{w['en']}"] = (str(p), _registered_source(p)) if p.exists() else (None, "kes:procedural")
     p = asset_root / "backgrounds" / f"{episode['theme']}_{episode['aspect']}.png"
+    if not p.exists() and episode["theme"] == "grammar":
+        p = asset_root / "backgrounds" / f"curriculum_{episode['aspect']}.png"
     out["background"] = (str(p), _registered_source(p)) if p.exists() else (None, "kes:procedural")
 
     # 字体来源优先级：自定义 OFL 字体 > 系统字体
@@ -177,23 +181,103 @@ def _card(en: str, zh: str, hex_color: str | None, w: int, h: int, scale_q: int)
         stroke = (90, 60, 40)
     else:
         stroke = (255, 255, 255)
-    f_en = font("en", int(h * 0.42 * s))
-    d.text((W / 2, H * 0.40), en, font=f_en, fill=color, anchor="mm", stroke_width=max(2, int(6 * s)),
-           stroke_fill=stroke)
-    d.text((W / 2, H * 0.80), zh, font=font("zh", int(h * 0.2 * s)), fill=(110, 75, 50), anchor="mm")
+    sw = max(2, int(6 * s))
+    max_inner = max(20, int(W * 0.88) - sw * 2)
+
+    sz_en = max(10, int(h * 0.42 * s))
+    min_single = max(10, int(h * 0.23 * s))
+    step = max(2, int(6 * s))
+    f_en = font("en", sz_en)
+    en_text = en
+    while sz_en >= min_single:
+        f_en = font("en", sz_en)
+        l, _, r, _ = d.textbbox((0, 0), en, font=f_en)
+        if (r - l) <= max_inner:
+            break
+        sz_en -= step
+    else:
+        sz_wrap = max(10, int(h * 0.22 * s))
+        min_wrap = max(8, int(h * 0.13 * s))
+        spacing = max(2, int(6 * s))
+        while sz_wrap >= min_wrap:
+            f_en = font("en", sz_wrap)
+            en_text = _wrap_text(en, f_en, max_inner, d)
+            l, t, r, b = d.multiline_textbbox((0, 0), en_text, font=f_en, spacing=spacing, align="center")
+            if en_text.count("\n") <= 1 and (r - l) <= max_inner and (b - t) <= int(H * 0.56):
+                break
+            sz_wrap -= max(2, int(4 * s))
+
+    if "\n" in en_text:
+        d.multiline_text((W / 2, H * 0.37), en_text, font=f_en, fill=color, anchor="mm",
+                         spacing=max(2, int(6 * s)), align="center", stroke_width=sw, stroke_fill=stroke)
+        zh_y = H * 0.83
+    else:
+        d.text((W / 2, H * 0.40), en_text, font=f_en, fill=color, anchor="mm",
+               stroke_width=sw, stroke_fill=stroke)
+        zh_y = H * 0.80
+
+    sz_zh = max(8, int(h * 0.20 * s))
+    f_zh = font("zh", sz_zh)
+    while sz_zh > max(8, int(h * 0.11 * s)):
+        f_zh = font("zh", sz_zh)
+        lz, _, rz, _ = d.textbbox((0, 0), zh, font=f_zh)
+        if (rz - lz) <= max_inner:
+            break
+        sz_zh -= max(2, int(4 * s))
+    d.text((W / 2, zh_y), zh, font=f_zh, fill=(110, 75, 50), anchor="mm")
     return card
+
+
+def _wrap_text(text: str, f: ImageFont.FreeTypeFont, max_inner_w: int, draw: ImageDraw.ImageDraw) -> str:
+    """按像素宽度自动换行（中英混排友好，优先在空格或标点后断开）。"""
+    lines: list[str] = []
+    cur = ""
+    i = 0
+    while i < len(text):
+        ch = text[i]
+        # 英文单词尽量整词追加
+        if ch.isascii() and ch.isalnum():
+            j = i
+            while j < len(text) and text[j].isascii() and (text[j].isalnum() or text[j] in "'_-"):
+                j += 1
+            while j < len(text) and text[j] in "?!.,:;":
+                j += 1
+            tok = text[i:j]
+            i = j
+        else:
+            tok = ch
+            i += 1
+        cand = (cur + tok) if cur else tok.lstrip()
+        l, _, r, _ = draw.textbbox((0, 0), cand, font=f)
+        if cur and (r - l) > max_inner_w:
+            lines.append(cur.rstrip())
+            cur = tok.lstrip()
+        else:
+            cur = cand
+    if cur:
+        lines.append(cur.rstrip())
+    return "\n".join(lines)
 
 
 @lru_cache(maxsize=256)
 def _subtitle(text: str, max_w: int) -> Image.Image:
-    f = font("zh", 56)
     tmp = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
-    l, t, r, b = tmp.textbbox((0, 0), text, font=f)
-    tw, th = min(r - l, max_w), b - t
-    im = Image.new("RGBA", (tw + 80, th + 50), (0, 0, 0, 0))
+    max_inner = max(200, max_w - 80)
+    f = font("zh", 56)
+    wrapped = text
+    for sz in (56, 50, 44, 38):
+        f = font("zh", sz)
+        wrapped = _wrap_text(text, f, max_inner, tmp)
+        if wrapped.count("\n") <= 1:
+            break
+    l, t, r, b = tmp.multiline_textbbox((0, 0), wrapped, font=f, spacing=10, align="center")
+    tw, th = int(math.ceil(r - l)), int(math.ceil(b - t))
+    im = Image.new("RGBA", (min(max_w, tw + 80), th + 46), (0, 0, 0, 0))
     d = ImageDraw.Draw(im)
-    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=(th + 50) // 2, fill=(60, 40, 28, 170))
-    d.text((im.width / 2, im.height / 2), text, font=f, fill=(255, 255, 255), anchor="mm")
+    d.rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=min(42, (th + 46) // 2),
+                        fill=(60, 40, 28, 180))
+    d.multiline_text((im.width / 2, im.height / 2), wrapped, font=f, fill=(255, 255, 255),
+                     anchor="mm", spacing=10, align="center")
     return im
 
 
@@ -211,11 +295,16 @@ def _badge(filled: int) -> Image.Image:
     return im
 
 
-@lru_cache(maxsize=4)
-def _title(text: str) -> Image.Image:
-    f = font("zh", 64)
+@lru_cache(maxsize=8)
+def _title(text: str, max_w: int = 1000) -> Image.Image:
+    sz = 64
     tmp = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
-    l, t, r, b = tmp.textbbox((0, 0), text, font=f)
+    while sz > 28:
+        f = font("zh", sz)
+        l, t, r, b = tmp.textbbox((0, 0), text, font=f)
+        if r - l + 100 <= max_w:
+            break
+        sz -= 4
     im = Image.new("RGBA", (r - l + 100, b - t + 60), (0, 0, 0, 0))
     m = Image.new("L", im.size, 0)
     ImageDraw.Draw(m).rounded_rectangle([0, 0, im.width - 1, im.height - 1], radius=im.height // 2, fill=255)
@@ -312,7 +401,7 @@ class Renderer:
             self.bg = self.procedural.background(w, h, episode["theme"])
             if self.style_id not in ("clay", "felt"):
                 self.bg = materials.apply_material(self.style_id, self.bg, 400)
-        self.title = _title(f"{clay_name(episode)}学英语 · {episode['theme_en'].capitalize()} {episode['theme_zh']}")
+        self.title = _title(f"{clay_name(episode)}学英语 · {episode['theme_en'].capitalize()} {episode['theme_zh']}", w - 60)
         if self.style_id != "clay":
             self.title = materials.apply_material(self.style_id, self.title, 401)
 
@@ -381,9 +470,10 @@ class Renderer:
             cx, cy, cw, ch = self.L["card"]
             pk = (f - self.first_card[wi]) // HOLD
             s = POP[pk] if 0 <= pk < len(POP) else 1.0
-            card = _card(word["en"].capitalize(), word["zh"], word.get("hex"), cw, ch, int(s * 100))
+            card_en = word.get("card_en") or word["en"].capitalize()
+            card = _card(card_en, word["zh"], word.get("hex"), cw, ch, int(s * 100))
             if self.style_id != "clay":
-                card = _styled_card(self.style_id, word["en"].capitalize(), word["zh"], word.get("hex"), cw, ch, int(s * 100))
+                card = _styled_card(self.style_id, card_en, word["zh"], word.get("hex"), cw, ch, int(s * 100))
             _paste_center(img, card, cx, cy)
 
         if shot["repeat_prompt"] and f > shot["speech_end_frame"] + HOLD * 3:

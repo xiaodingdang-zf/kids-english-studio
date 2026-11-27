@@ -1,0 +1,798 @@
+{
+  "schema_version": "1.0",
+  "series": "奥利学小学语法",
+  "units": [
+    {
+      "id": "G1",
+      "episode": 1,
+      "title_zh": "冠词 a 和 an",
+      "title_en": "Articles: a / an",
+      "rule_zh": "元音字母 a、e、i、o、u 开头的发音前用 an，其余用 a。",
+      "intro_zh": "奥利想拿一个苹果和一本书，可是什么时候说 a，什么时候说 an 呢？",
+      "examples": [
+        {
+          "en": "apple",
+          "phrase": "an apple",
+          "zh": "一个苹果",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "en": "book",
+          "phrase": "a book",
+          "zh": "一本书",
+          "asset": "curriculum/book.png"
+        },
+        {
+          "en": "egg",
+          "phrase": "an egg",
+          "zh": "一个鸡蛋",
+          "asset": "curriculum/egg.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ cat",
+          "prompt_zh": "一只小猫，选 a 还是 an？",
+          "answer": "a cat",
+          "en": "cat",
+          "asset": "animals/cat.png"
+        },
+        {
+          "prompt_en": "___ elephant",
+          "prompt_zh": "一头大象，选 a 还是 an？",
+          "answer": "an elephant",
+          "en": "elephant",
+          "asset": "curriculum/elephant.png"
+        }
+      ]
+    },
+    {
+      "id": "G2",
+      "episode": 2,
+      "title_zh": "名词变复数 -s",
+      "title_en": "Plural Nouns",
+      "rule_zh": "只有一个不用加 s，两个及以上在单词末尾加 s。",
+      "intro_zh": "奥利数着桌上的小玩意儿，超过一个的时候，单词尾巴要变长哦！",
+      "examples": [
+        {
+          "en": "cat",
+          "phrase": "two cats",
+          "zh": "两只小猫",
+          "asset": "animals/cat.png"
+        },
+        {
+          "en": "dog",
+          "phrase": "three dogs",
+          "zh": "三只小狗",
+          "asset": "animals/dog.png"
+        },
+        {
+          "en": "apple",
+          "phrase": "four apples",
+          "zh": "四个苹果",
+          "asset": "fruits/apple.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "two ___ (book)",
+          "prompt_zh": "两本书，book 后面加什么？",
+          "answer": "two books",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        },
+        {
+          "prompt_en": "three ___ (pen)",
+          "prompt_zh": "三支钢笔怎么说？",
+          "answer": "three pens",
+          "en": "pen",
+          "asset": "curriculum/pen.png"
+        }
+      ]
+    },
+    {
+      "id": "G3",
+      "episode": 3,
+      "title_zh": "人称与 be 动词",
+      "title_en": "am / is / are",
+      "rule_zh": "我用 am，你用 are，is 连着他她它，复数全都用 are。",
+      "intro_zh": "奥利和好朋友们做自我介绍，I、you、he 后面要配哪个小帮手呢？",
+      "examples": [
+        {
+          "en": "I",
+          "phrase": "I am Ollie.",
+          "zh": "我是奥利。",
+          "asset": "ollie"
+        },
+        {
+          "en": "she",
+          "phrase": "She is my mum.",
+          "zh": "她是我妈妈。",
+          "asset": "curriculum/mum.png"
+        },
+        {
+          "en": "he",
+          "phrase": "He is my dad.",
+          "zh": "他是我爸爸。",
+          "asset": "curriculum/dad.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "I ___ happy.",
+          "prompt_zh": "我很高兴，填 am 还是 is？",
+          "answer": "I am happy.",
+          "en": "ollie",
+          "asset": "ollie"
+        },
+        {
+          "prompt_en": "It ___ a duck.",
+          "prompt_zh": "它是一只鸭子，填 is 还是 are？",
+          "answer": "It is a duck.",
+          "en": "duck",
+          "asset": "animals/duck.png"
+        }
+      ]
+    },
+    {
+      "id": "G4",
+      "episode": 4,
+      "title_zh": "物主代词 my / your",
+      "title_en": "my / your / his / her",
+      "rule_zh": "我的用 my，你的用 your，男他用 his，女她用 her。",
+      "intro_zh": "书包和帽子混在一起啦，快用 my 和 your 分清楚是谁的吧！",
+      "examples": [
+        {
+          "en": "bag",
+          "phrase": "my bag",
+          "zh": "我的书包",
+          "asset": "curriculum/bag.png"
+        },
+        {
+          "en": "hat",
+          "phrase": "your hat",
+          "zh": "你的帽子",
+          "asset": "curriculum/hat.png"
+        },
+        {
+          "en": "coat",
+          "phrase": "his coat",
+          "zh": "他的外套",
+          "asset": "curriculum/coat.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ book",
+          "prompt_zh": "“我的书”怎么说？",
+          "answer": "my book",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        },
+        {
+          "prompt_en": "___ doll",
+          "prompt_zh": "“她的洋娃娃”怎么说？",
+          "answer": "her doll",
+          "en": "doll",
+          "asset": "curriculum/doll.png"
+        }
+      ]
+    },
+    {
+      "id": "G5",
+      "episode": 5,
+      "title_zh": "指示代词 this / that",
+      "title_en": "this / that",
+      "rule_zh": "手边近的用 this，远处指的用 that。",
+      "intro_zh": "奥利指着身边的球和远处的窗，近处远处用词不一样哦！",
+      "examples": [
+        {
+          "en": "ball",
+          "phrase": "this ball",
+          "zh": "近处的这个球",
+          "asset": "curriculum/ball.png"
+        },
+        {
+          "en": "window",
+          "phrase": "that window",
+          "zh": "远处的那个窗",
+          "asset": "curriculum/window.png"
+        },
+        {
+          "en": "chair",
+          "phrase": "this chair",
+          "zh": "近处的这把椅子",
+          "asset": "curriculum/chair.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ is my pen.",
+          "prompt_zh": "手里的这支笔，用 this 还是 that？",
+          "answer": "This is my pen.",
+          "en": "pen",
+          "asset": "curriculum/pen.png"
+        },
+        {
+          "prompt_en": "___ is a tiger.",
+          "prompt_zh": "远处的那只老虎，用 this 还是 that？",
+          "answer": "That is a tiger.",
+          "en": "tiger",
+          "asset": "curriculum/tiger.png"
+        }
+      ]
+    },
+    {
+      "id": "G6",
+      "episode": 6,
+      "title_zh": "拥有 have / has",
+      "title_en": "have / has",
+      "rule_zh": "I、you 和复数用 have，he、she、it 单数第三人称用 has。",
+      "intro_zh": "奥利和妹妹各有各的玩具，“有”什么时候用 have，什么时候用 has？",
+      "examples": [
+        {
+          "en": "toy",
+          "phrase": "I have a toy.",
+          "zh": "我有一个玩具。",
+          "asset": "curriculum/toy.png"
+        },
+        {
+          "en": "doll",
+          "phrase": "She has a doll.",
+          "zh": "她有一个洋娃娃。",
+          "asset": "curriculum/doll.png"
+        },
+        {
+          "en": "cake",
+          "phrase": "We have a cake.",
+          "zh": "我们有一个蛋糕。",
+          "asset": "curriculum/cake.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "He ___ a book.",
+          "prompt_zh": "他有一本书，用 have 还是 has？",
+          "answer": "He has a book.",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        },
+        {
+          "prompt_en": "I ___ a cat.",
+          "prompt_zh": "我有一只猫，用 have 还是 has？",
+          "answer": "I have a cat.",
+          "en": "cat",
+          "asset": "animals/cat.png"
+        }
+      ]
+    },
+    {
+      "id": "G7",
+      "episode": 7,
+      "title_zh": "情态动词 can / can't",
+      "title_en": "can / can't",
+      "rule_zh": "会做用 can 加动词原形，不会做用 can't。",
+      "intro_zh": "小鱼会游泳，小鸟会飞，用 can 和 can't 来聊聊本领吧！",
+      "examples": [
+        {
+          "en": "fish",
+          "phrase": "A fish can swim.",
+          "zh": "小鱼会游泳。",
+          "asset": "animals/fish.png"
+        },
+        {
+          "en": "bird",
+          "phrase": "A bird can fly.",
+          "zh": "小鸟会飞。",
+          "asset": "animals/bird.png"
+        },
+        {
+          "en": "rabbit",
+          "phrase": "A rabbit can jump.",
+          "zh": "小兔会跳。",
+          "asset": "curriculum/rabbit.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "A monkey ___ climb.",
+          "prompt_zh": "猴子会爬树，填什么？",
+          "answer": "A monkey can climb.",
+          "en": "monkey",
+          "asset": "curriculum/monkey.png"
+        },
+        {
+          "prompt_en": "A fish ___ fly.",
+          "prompt_zh": "小鱼不会飞，填 can 还是 can't？",
+          "answer": "A fish can't fly.",
+          "en": "fish",
+          "asset": "animals/fish.png"
+        }
+      ]
+    },
+    {
+      "id": "G8",
+      "episode": 8,
+      "title_zh": "助动词 do / does",
+      "title_en": "Do / Does",
+      "rule_zh": "问 you 或复数用 Do 开头，问 he、she、it 用 Does 开头。",
+      "intro_zh": "奥利想打听大家喜欢什么食物，提问时开头用 Do 还是 Does？",
+      "examples": [
+        {
+          "en": "milk",
+          "phrase": "Do you like milk?",
+          "zh": "你喜欢牛奶吗？",
+          "asset": "curriculum/milk.png"
+        },
+        {
+          "en": "bread",
+          "phrase": "Does he like bread?",
+          "zh": "他喜欢面包吗？",
+          "asset": "curriculum/bread.png"
+        },
+        {
+          "en": "banana",
+          "phrase": "Does she like bananas?",
+          "zh": "她喜欢香蕉吗？",
+          "asset": "fruits/banana.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ you like rice?",
+          "prompt_zh": "你喜欢米饭吗？用 Do 还是 Does？",
+          "answer": "Do you like rice?",
+          "en": "rice",
+          "asset": "curriculum/rice.png"
+        },
+        {
+          "prompt_en": "___ she have a dog?",
+          "prompt_zh": "她有一只狗吗？用 Do 还是 Does？",
+          "answer": "Does she have a dog?",
+          "en": "dog",
+          "asset": "animals/dog.png"
+        }
+      ]
+    },
+    {
+      "id": "G9",
+      "episode": 9,
+      "title_zh": "特殊疑问词 What / Who",
+      "title_en": "What / Who / Where",
+      "rule_zh": "问东西用 What，问人物用 Who，问地点用 Where。",
+      "intro_zh": "奥利变成小侦探，遇到不知道的东西、人物和地点该怎么问？",
+      "examples": [
+        {
+          "en": "desk",
+          "phrase": "What is it? It's a desk.",
+          "zh": "它是什么？是桌子。",
+          "asset": "curriculum/desk.png"
+        },
+        {
+          "en": "grandma",
+          "phrase": "Who is she? She's grandma.",
+          "zh": "她是谁？是奶奶。",
+          "asset": "curriculum/grandma.png"
+        },
+        {
+          "en": "bed",
+          "phrase": "Where is Ollie? On the bed.",
+          "zh": "奥利在哪？在床上。",
+          "asset": "curriculum/bed.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ is this?",
+          "prompt_zh": "问“这是什么”，用 What 还是 Who？",
+          "answer": "What is this?",
+          "en": "apple",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "prompt_en": "___ is he?",
+          "prompt_zh": "问“他是谁”，用 What 还是 Who？",
+          "answer": "Who is he?",
+          "en": "brother",
+          "asset": "curriculum/brother.png"
+        }
+      ]
+    },
+    {
+      "id": "G10",
+      "episode": 10,
+      "title_zh": "方位介词 in / on / under",
+      "title_en": "in / on / under",
+      "rule_zh": "在里面用 in，在上面用 on，在下面用 under。",
+      "intro_zh": "调皮的小猫躲起来了，快用 in、on、under 找找它在哪里！",
+      "examples": [
+        {
+          "en": "bag",
+          "phrase": "in the bag",
+          "zh": "在书包里",
+          "asset": "curriculum/bag.png"
+        },
+        {
+          "en": "table",
+          "phrase": "on the table",
+          "zh": "在桌子上",
+          "asset": "curriculum/table.png"
+        },
+        {
+          "en": "bed",
+          "phrase": "under the bed",
+          "zh": "在床底下",
+          "asset": "curriculum/bed.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ the chair",
+          "prompt_zh": "在椅子上面，用 in 还是 on？",
+          "answer": "on the chair",
+          "en": "chair",
+          "asset": "curriculum/chair.png"
+        },
+        {
+          "prompt_en": "___ the desk",
+          "prompt_zh": "在课桌下面，用 on 还是 under？",
+          "answer": "under the desk",
+          "en": "desk",
+          "asset": "curriculum/desk.png"
+        }
+      ]
+    },
+    {
+      "id": "G11",
+      "episode": 11,
+      "title_zh": "复数指示 these / those",
+      "title_en": "these / those",
+      "rule_zh": "近处好几个用 these，远处好几个用 those。",
+      "intro_zh": "奥利面前有一堆苹果，远处还有好几个球，好几个东西要怎么指呢？",
+      "examples": [
+        {
+          "en": "apple",
+          "phrase": "these apples",
+          "zh": "近处的这些苹果",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "en": "ball",
+          "phrase": "those balls",
+          "zh": "远处的那些球",
+          "asset": "curriculum/ball.png"
+        },
+        {
+          "en": "book",
+          "phrase": "these books",
+          "zh": "近处的这些书",
+          "asset": "curriculum/book.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ pens (near)",
+          "prompt_zh": "手边的这些钢笔，用 these 还是 those？",
+          "answer": "these pens",
+          "en": "pen",
+          "asset": "curriculum/pen.png"
+        },
+        {
+          "prompt_en": "___ tigers (far)",
+          "prompt_zh": "远处的那些老虎，用 these 还是 those？",
+          "answer": "those tigers",
+          "en": "tiger",
+          "asset": "curriculum/tiger.png"
+        }
+      ]
+    },
+    {
+      "id": "G12",
+      "episode": 12,
+      "title_zh": "名词复数加 es",
+      "title_en": "Plural -es",
+      "rule_zh": "以 s、x、ch、sh 结尾的名词，变复数要加 es。",
+      "intro_zh": "有些单词变复数时，只加 s 读不顺，要加 es 才好听！",
+      "examples": [
+        {
+          "en": "box",
+          "phrase": "two boxes",
+          "zh": "两个盒子",
+          "asset": "curriculum/box.png"
+        },
+        {
+          "en": "peach",
+          "phrase": "three peaches",
+          "zh": "三个桃子",
+          "asset": "fruits/peach.png"
+        },
+        {
+          "en": "watch",
+          "phrase": "two watches",
+          "zh": "两块手表",
+          "asset": "curriculum/watch.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "four ___ (peach)",
+          "prompt_zh": "四个桃子，peach 后面加 s 还是 es？",
+          "answer": "four peaches",
+          "en": "peach",
+          "asset": "fruits/peach.png"
+        },
+        {
+          "prompt_en": "two ___ (book)",
+          "prompt_zh": "两本书，book 后面加 s 还是 es？",
+          "answer": "two books",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        }
+      ]
+    },
+    {
+      "id": "G13",
+      "episode": 13,
+      "title_zh": "一般现在时三单加 s",
+      "title_en": "He likes / She eats",
+      "rule_zh": "主语是 he、she、it 或一个人名时，动词后面要加 s。",
+      "intro_zh": "奥利发现，说别人每天做的事情时，动词尾巴会多一个 s！",
+      "examples": [
+        {
+          "en": "apple",
+          "phrase": "He eats an apple.",
+          "zh": "他吃一个苹果。",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "en": "milk",
+          "phrase": "She drinks milk.",
+          "zh": "她喝牛奶。",
+          "asset": "curriculum/milk.png"
+        },
+        {
+          "en": "cake",
+          "phrase": "Ollie likes cake.",
+          "zh": "奥利喜欢蛋糕。",
+          "asset": "curriculum/cake.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "She ___ a book. (read)",
+          "prompt_zh": "她读书，read 要不要加 s？",
+          "answer": "She reads a book.",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        },
+        {
+          "prompt_en": "I ___ rice. (eat)",
+          "prompt_zh": "我吃米饭，eat 要不要加 s？",
+          "answer": "I eat rice.",
+          "en": "rice",
+          "asset": "curriculum/rice.png"
+        }
+      ]
+    },
+    {
+      "id": "G14",
+      "episode": 14,
+      "title_zh": "方位介词进阶",
+      "title_en": "behind / next to",
+      "rule_zh": "在后面用 behind，在旁边用 next to。",
+      "intro_zh": "小猫又躲起来了，这次它藏在门后面，还是床旁边呢？",
+      "examples": [
+        {
+          "en": "door",
+          "phrase": "behind the door",
+          "zh": "在门后面",
+          "asset": "curriculum/door.png"
+        },
+        {
+          "en": "bed",
+          "phrase": "next to the bed",
+          "zh": "在床旁边",
+          "asset": "curriculum/bed.png"
+        },
+        {
+          "en": "sofa",
+          "phrase": "behind the sofa",
+          "zh": "在沙发后面",
+          "asset": "curriculum/sofa.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ the window",
+          "prompt_zh": "在窗户旁边，用 behind 还是 next to？",
+          "answer": "next to the window",
+          "en": "window",
+          "asset": "curriculum/window.png"
+        },
+        {
+          "prompt_en": "___ the chair",
+          "prompt_zh": "在椅子后面，用 behind 还是 next to？",
+          "answer": "behind the chair",
+          "en": "chair",
+          "asset": "curriculum/chair.png"
+        }
+      ]
+    },
+    {
+      "id": "G15",
+      "episode": 15,
+      "title_zh": "名词所有格 's",
+      "title_en": "Possessive 's",
+      "rule_zh": "表示“某人的东西”，在人名或称呼后面加上 's。",
+      "intro_zh": "书包是奥利的，帽子是妈妈的，怎么用英文说“谁的东西”呢？",
+      "examples": [
+        {
+          "en": "bag",
+          "phrase": "Ollie's bag",
+          "zh": "奥利的书包",
+          "asset": "curriculum/bag.png"
+        },
+        {
+          "en": "hat",
+          "phrase": "Mum's hat",
+          "zh": "妈妈的帽子",
+          "asset": "curriculum/hat.png"
+        },
+        {
+          "en": "book",
+          "phrase": "Dad's book",
+          "zh": "爸爸的书",
+          "asset": "curriculum/book.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ bag (Ollie)",
+          "prompt_zh": "“奥利的书包”，名字后面加什么？",
+          "answer": "Ollie's bag",
+          "en": "bag",
+          "asset": "curriculum/bag.png"
+        },
+        {
+          "prompt_en": "___ hat (Mum)",
+          "prompt_zh": "“妈妈的帽子”怎么说？",
+          "answer": "Mum's hat",
+          "en": "hat",
+          "asset": "curriculum/hat.png"
+        }
+      ]
+    },
+    {
+      "id": "G16",
+      "episode": 16,
+      "title_zh": "大写字母规则",
+      "title_en": "Capital Letters",
+      "rule_zh": "句首第一个字母、人名和单词 I，都要写成大写字母。",
+      "intro_zh": "奥利写英文句子时发现，有三个地方一定要戴上“大写高帽子”！",
+      "examples": [
+        {
+          "en": "mum",
+          "phrase": "Hello, Mum!",
+          "zh": "句首和称呼首字母大写",
+          "asset": "curriculum/mum.png"
+        },
+        {
+          "en": "cat",
+          "phrase": "I have a cat.",
+          "zh": "单词 I 永远大写",
+          "asset": "animals/cat.png"
+        },
+        {
+          "en": "cake",
+          "phrase": "Ollie likes cake.",
+          "zh": "人名首字母要大写",
+          "asset": "curriculum/cake.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ have a cat.",
+          "prompt_zh": "“我有一只猫”，单词 I 要大写吗？",
+          "answer": "I have a cat",
+          "en": "cat",
+          "asset": "animals/cat.png"
+        },
+        {
+          "prompt_en": "___ likes cake.",
+          "prompt_zh": "奥利喜欢蛋糕，人名首字母怎么写？",
+          "answer": "Ollie likes cake",
+          "en": "cake",
+          "asset": "curriculum/cake.png"
+        }
+      ]
+    },
+    {
+      "id": "G17",
+      "episode": 17,
+      "title_zh": "单复数提问对比",
+      "title_en": "What is it / What are they",
+      "rule_zh": "问一个东西用 What is it，问好几个用 What are they。",
+      "intro_zh": "桌上有一个苹果，还有好几只小猫，提问时该怎么选呢？",
+      "examples": [
+        {
+          "en": "apple",
+          "phrase": "What is it? It's an apple.",
+          "zh": "它是什么？是一个苹果",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "en": "cat",
+          "phrase": "What are they? They are cats.",
+          "zh": "它们是什么？是小猫",
+          "asset": "animals/cat.png"
+        },
+        {
+          "en": "book",
+          "phrase": "What are they? They are books.",
+          "zh": "它们是什么？是书",
+          "asset": "curriculum/book.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "What ___ it?",
+          "prompt_zh": "只有一个苹果，问句填 is 还是 are？",
+          "answer": "What is it",
+          "en": "apple",
+          "asset": "fruits/apple.png"
+        },
+        {
+          "prompt_en": "What ___ they?",
+          "prompt_zh": "有好几本书，问句填 is 还是 are？",
+          "answer": "What are they",
+          "en": "book",
+          "asset": "curriculum/book.png"
+        }
+      ]
+    },
+    {
+      "id": "G18",
+      "episode": 18,
+      "title_zh": "数量与颜色提问",
+      "title_en": "How many / What color",
+      "rule_zh": "问数量多少用 How many，问什么颜色用 What color。",
+      "intro_zh": "奥利既想数清楚有几个球，又想知道是什么颜色，该怎么问呢？",
+      "examples": [
+        {
+          "en": "five",
+          "phrase": "How many balls? Five!",
+          "zh": "有几个球？五个",
+          "asset": "numbers/five.png"
+        },
+        {
+          "en": "red",
+          "phrase": "What color is it? Red!",
+          "zh": "什么颜色？红色",
+          "asset": "colors/red.png"
+        },
+        {
+          "en": "two",
+          "phrase": "How many dogs? Two!",
+          "zh": "有几只狗？两只",
+          "asset": "numbers/two.png"
+        }
+      ],
+      "quiz": [
+        {
+          "prompt_en": "___ balls? Five!",
+          "prompt_zh": "问“有几个球”，用 How many 还是 What color？",
+          "answer": "How many balls",
+          "en": "five",
+          "asset": "numbers/five.png"
+        },
+        {
+          "prompt_en": "___ is it? Red!",
+          "prompt_zh": "问“什么颜色”，用 How many 还是 What color？",
+          "answer": "What color is it",
+          "en": "red",
+          "asset": "colors/red.png"
+        }
+      ]
+    }
+  ]
+}

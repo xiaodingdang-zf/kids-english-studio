@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0",
+  "episode_id": "ep_grammar_g3e3_am-is-are",
+  "width": 1080,
+  "height": 1920,
+  "fps": 24,
+  "anim_fps": 12,
+  "total_frames": 2456,
+  "shots": [
+    {
+      "cue_id": "c001",
+      "start_frame": 0,
+      "end_frame": 140,
+      "speech_end_frame": 127,
+      "camera": "static",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "大家好，我是奥利！今天学小学语法：人称与 be 动词。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c002",
+      "start_frame": 140,
+      "end_frame": 292,
+      "speech_end_frame": 279,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "奥利和好朋友们做自我介绍，I、you、he 后面要配哪个小帮手呢？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c003",
+      "start_frame": 292,
+      "end_frame": 462,
+      "speech_end_frame": 445,
+      "camera": "push_in",
+      "action": "nod",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "记住口诀：我用 am，你用 are，is 连着他她它，复数全都用 are。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c004",
+      "start_frame": 462,
+      "end_frame": 571,
+      "speech_end_frame": 553,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Let's learn: am / is / are!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c005",
+      "start_frame": 571,
+      "end_frame": 637,
+      "speech_end_frame": 623,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 1 组：我是奥利。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c006",
+      "start_frame": 637,
+      "end_frame": 677,
+      "speech_end_frame": 662,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I am Ollie..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c007",
+      "start_frame": 677,
+      "end_frame": 700,
+      "speech_end_frame": 691,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c008",
+      "start_frame": 700,
+      "end_frame": 768,
+      "speech_end_frame": 726,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "I am Ollie..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c009",
+      "start_frame": 768,
+      "end_frame": 853,
+      "speech_end_frame": 835,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "I am Ollie.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c010",
+      "start_frame": 853,
+      "end_frame": 931,
+      "speech_end_frame": 917,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 2 组：她是我妈妈。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c011",
+      "start_frame": 931,
+      "end_frame": 988,
+      "speech_end_frame": 974,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "She is my mum..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c012",
+      "start_frame": 988,
+      "end_frame": 1012,
+      "speech_end_frame": 1003,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c013",
+      "start_frame": 1012,
+      "end_frame": 1097,
+      "speech_end_frame": 1055,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "She is my mum..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c014",
+      "start_frame": 1097,
+      "end_frame": 1194,
+      "speech_end_frame": 1176,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "She is my mum.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c015",
+      "start_frame": 1194,
+      "end_frame": 1267,
+      "speech_end_frame": 1253,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "来看第 3 组：他是我爸爸。。",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c016",
+      "start_frame": 1267,
+      "end_frame": 1321,
+      "speech_end_frame": 1307,
+      "camera": "push_in",
+      "action": "point",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "He is my dad..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c017",
+      "start_frame": 1321,
+      "end_frame": 1345,
+      "speech_end_frame": 1335,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "跟我念！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c018",
+      "start_frame": 1345,
+      "end_frame": 1427,
+      "speech_end_frame": 1385,
+      "camera": "push_in",
+      "action": "listen",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": true,
+      "subtitle": "He is my dad..",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c019",
+      "start_frame": 1427,
+      "end_frame": 1511,
+      "speech_end_frame": 1493,
+      "camera": "push_in",
+      "action": "clap",
+      "word_index": 2,
+      "show_card": true,
+      "repeat_prompt": false,
+      "subtitle": "He is my dad.! Good job!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c020",
+      "start_frame": 1511,
+      "end_frame": 1588,
+      "speech_end_frame": 1572,
+      "camera": "push_in",
+      "action": "jump",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "闯关时间到！看看你学会了吗？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c021",
+      "start_frame": 1588,
+      "end_frame": 1693,
+      "speech_end_frame": 1682,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 1 题：我很高兴，填 am 还是 is？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c022",
+      "start_frame": 1693,
+      "end_frame": 1801,
+      "speech_end_frame": 1757,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "I hmm happy.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c023",
+      "start_frame": 1801,
+      "end_frame": 1831,
+      "speech_end_frame": 1822,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c024",
+      "start_frame": 1831,
+      "end_frame": 1892,
+      "speech_end_frame": 1872,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 0,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "I am happy.!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c025",
+      "start_frame": 1892,
+      "end_frame": 2009,
+      "speech_end_frame": 1998,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "第 2 题：它是一只鸭子，填 is 还是 are？",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c026",
+      "start_frame": 2009,
+      "end_frame": 2108,
+      "speech_end_frame": 2063,
+      "camera": "pan",
+      "action": "listen",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": true,
+      "subtitle": "It hmm a duck.",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c027",
+      "start_frame": 2108,
+      "end_frame": 2138,
+      "speech_end_frame": 2128,
+      "camera": "pan",
+      "action": "point",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "答案是：",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c028",
+      "start_frame": 2138,
+      "end_frame": 2194,
+      "speech_end_frame": 2174,
+      "camera": "pan",
+      "action": "clap",
+      "word_index": 1,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "It is a duck.!",
+      "lang": "en"
+    },
+    {
+      "cue_id": "c029",
+      "start_frame": 2194,
+      "end_frame": 2384,
+      "speech_end_frame": 2371,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "今天记住啦：我用 am，你用 are，is 连着他她它，复数全都用 are。你真棒！",
+      "lang": "zh"
+    },
+    {
+      "cue_id": "c030",
+      "start_frame": 2384,
+      "end_frame": 2456,
+      "speech_end_frame": 2411,
+      "camera": "pull_out",
+      "action": "wave",
+      "word_index": null,
+      "show_card": false,
+      "repeat_prompt": false,
+      "subtitle": "Bye-bye!",
+      "lang": "en"
+    }
+  ],
+  "assets": [
+    {
+      "asset_id": "character:idle",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/idle.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:wave",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/wave.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:jump",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/jump.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:clap",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/clap.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:point",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/point.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:nod",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/nod.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "character:listen",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/characters/ollie/listen.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:I",
+      "path": null,
+      "asset_source": "kes:procedural"
+    },
+    {
+      "asset_id": "object:she",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/mum.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "object:he",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/objects/curriculum/dad.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "background",
+      "path": "/Users/Apple/Desktop/Vscode/kids-english-studio/assets/backgrounds/curriculum_portrait.png",
+      "asset_source": "openai:image_gen"
+    },
+    {
+      "asset_id": "font:zh",
+      "path": null,
+      "asset_source": "font:ofl:source-han-sans-sc"
+    },
+    {
+      "asset_id": "font:en",
+      "path": null,
+      "asset_source": "font:ofl:nunito"
+    }
+  ]
+}

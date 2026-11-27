@@ -508,8 +508,18 @@ def _normalize_answers(answers: dict | str | None) -> dict:
 
 
 def generate(prompt: str, answers: dict | str | None = None) -> dict:
-    req = parse_prompt(prompt)
+    from .grammar import build_grammar_episode, find_grammar_unit
     answers = _normalize_answers(answers)
+    try:
+        g_unit = find_grammar_unit(prompt)
+    except ValueError as e:
+        raise ParseError(str(e)) from e
+    if g_unit is not None:
+        style = answers.get("style", _detect_style(prompt)[0])
+        aspect = answers.get("aspect", "landscape" if "横屏" in prompt else ("square" if "方形" in prompt else "portrait"))
+        dur = answers.get("duration_sec", 75)
+        return build_grammar_episode(g_unit, prompt, style=style, aspect=aspect, duration_sec=dur)
+    req = parse_prompt(prompt)
     req.style = answers.get("style", req.style)
     req.duration_sec = answers.get("duration_sec", req.duration_sec)
     req.aspect = answers.get("aspect", req.aspect)
